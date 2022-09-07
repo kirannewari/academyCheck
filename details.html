@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <title>AutoWash - Car Wash Website Template</title>
@@ -22,22 +21,23 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/details.css" rel="stylesheet">
     <link href="css/tooplate.css" rel="stylesheet">
-
 </head>
-
 <body>
     <!-- Nav Bar Start -->
-    <div class="nav-bar">
+    <section class="top">
+        <img class="logo" src="./img/AC.jpg">
+        <a href="#" class="navbar-brand black">AcademyCheck</a>
+    </section>
+    <div class="">
         <div class="container">
             <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-                <a href="#" class="navbar-brand">MENU</a>
+                <!-- <a href="#" class="navbar-brand">MENU</a> -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav mr-auto">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <!-- <a href="index.html" class="nav-item nav-link active">Home</a> -->
                         <a href="list.html" class="nav-item nav-link">Explore Coachings</a>
                         <a href="" class="nav-item nav-link">Admission Tracker</a>
                         <a href="" class="nav-item nav-link">Compare Coachings</a>
@@ -63,15 +63,30 @@
     <!-- Nav Bar End -->
 
     <!-- Page Header background image Start -->
-    <div class="co_name">
-        <img src="./img/1i.png">
-        <div class="co2">
-
-            <h3>Coaching name</h3>
-            <p>Coaching detail</p>
-            <small>Coaching address</small>
+    <section id="bg">
+        <div class="co_name">
+            <div class="row ">
+                <div class="col-sm-8 ">
+                    <div class="mid">
+                        <img src="./img/1i.png">
+                        <div class="co2">
+                            <h4>Coaching name</h4>
+                            <!-- <small>Coaching address</small>
+                            <small>Coaching address</small> -->
+                            <i class='fas fa-money-bill-wave' style='font-size:10px'></i><span
+                                style="padding: 20px;">Fees:</span>  <br><br>
+                                <i class='fas fa-search' style='font-size:10px'></i><span
+                                style="padding: 20px;">Searched:</span>  <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    varified school
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+
     <!-- Page Header End -->
 
     <!-- Location Start -->
@@ -79,46 +94,51 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-3 ">
-                    <div class="card_left">
-                    <a href="#detail">
-                        <p>Coaching details</p>
-                    </a>
-                    <a href="#key">
-                        <p>Key coachings</p>
-                    </a>
-                    <a href="#fee">
-                        <p>Fee Struture</p>
-                    </a>
-                    <a href="#feat">
-                        <p>Key features</p>
-                    </a>
-                    <a href="#faci">
-                        <p>Facilities</p>
-                    </a>
-                </div>
+                   
+                        <a href="#detail">
+                            <p>Coaching details</p>
+                        </a>
+                        <a href="#key">
+                            <p>Key coachings</p>
+                        </a>
+                        <a href="#fee">
+                            <p>Fee Struture</p>
+                        </a>
+                        <a href="#feat">
+                            <p>Key features</p>
+                        </a>
+                        <a href="#faci">
+                            <p>Facilities</p>
+                        </a>
+                 
                 </div>
                 <div class="col-sm-9 right_fixed">
                     <div class="section-header text-left">
                         <!-- <p>About Us</p> -->
                         <div class="card_right1">
                             <div class="row">
-                                <div class="col-sm-5"> <b style="line-height:2;">Coaching Name</b></div>
+                                <div class="col-sm-5"> <div class="bordr">
+                                    <i class="fa fa-home"></i>
+                                    <small style="line-height:2;">I am looking for admission</small><br>
+                                 <b>Please Select</b>
+                                </div></div>
                                 <div class="col-sm-7">
                                     <div class="btns">
-                                        <button type="button" class="btn btn-outline-secondary">Compare</button>
-                                        <button type="button" class="btn btn-outline-danger">Notify Me</button>
-                                        <button type="button" class="btn btn-outline-info">Shortlist</button>
+                                        <button type="button" class="btn btn-outline-secondary" ><i class="fa fa-home p_left"></i>Compare</button>
+                                        <button type="button" class="btn btn-outline-danger"><i class="fa fa-home"></i>Notify Me</button>
+                                        <button type="button" class="btn btn-outline-info"><i class="fa fa-home"></i>Shortlist</button>
                                     </div>
                                 </div>
 
                             </div>
                         </div>
                     </div>
-               
+
                     <!-- card2 start -->
                     <div class="card_right2" id="detail">
                         <div class="sec1">
-                            <h3>Coaching details</h3>
+                            <h3>Online Admission Form</h3>
+                            <p></p>
                         </div>
                         <table class="table">
                             <thead class="thead-light">
@@ -147,14 +167,14 @@
                                     <td>@twitter</td>
 
                                 </tr>
-                              <tr>
+                                <tr>
                                     <th scope="row">3</th>
                                     <td>Larry</td>
                                     <td>the Bird</td>
                                     <td>@twitter</td>
                                     <td>@twitter</td>
 
-                                </tr>  
+                                </tr>
                             </tbody>
                         </table>
 
@@ -230,8 +250,10 @@
                                             <b>Is this coaching among your top 3 prefereces ?
                                             </b><br>
                                             <button type="button" class="btn btn-outline-secondary sort">Sure</button>
-                                            <button type="button" class="btn btn-outline-secondary sort">Not Sure</button>
-                                            <button type="button" class="btn btn-outline-secondary sort">Don't Know</button>
+                                            <button type="button" class="btn btn-outline-secondary sort">Not
+                                                Sure</button>
+                                            <button type="button" class="btn btn-outline-secondary sort">Don't
+                                                Know</button>
                                             <small>Submit your responce to view opinions of other parents</small>
                                         </div>
                                     </div>
@@ -435,20 +457,20 @@
                         <h3>Address & Contact</h3>
                         <div class="row">
                             <div class="col-sm-5">
-                            <p>address</p>
-                            <p>Coaching webiste</p>
+                                <p>address</p>
+                                <p>Coaching webiste</p>
 
-                        </div>
+                            </div>
                             <div class="col-sm-7">
                                 <img src="./img/map.png" class="mapp">
                             </div>
-                        </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    
+    </div>
+
     <!-- Location End -->
 
 

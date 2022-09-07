@@ -256,8 +256,8 @@ a:focus {
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #f6f2f2;
-    padding: 15px;
+    color: #070606;
+    /* psadding: 15px; */
     font-weight: 500;
     letter-spacing: 1px;
     font-size: 15px;

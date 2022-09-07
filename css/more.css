@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    font-family: "Nunito Sans",sans-serif,"Helvetica Neue Light","Helvetica Neue","Helvetica","Arial";
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;}
+    .small-heading {
+        color: #303264 !important;
+        font-weight: 600;
+        font-size: .95rem;
+        margin-bottom: 0.2em;
+        text-decoration: none;
+    }
+    .infotip {
+        color: #111;
+        padding: 1px;
+        line-height: 1;
+        display: inline-block;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .pp{
+        /* padding: 20px; */
+        padding-left: 2rem !important;
+    }
+    .logo{
+        height: 50px;
+        width: 50px;
+    }
+    .black{
+        color: black;
+        font-weight: 100;
+        margin: 1%;
+        text-decoration: none;
+    }
+    .srch{
+        width: 550px;
+    }
+.gap1{
+    height: 50px;
+}
+.deco{
+    text-decoration: none;
+}
+.table{
+    width: 100% !important;
+padding: 20px;
+ }
+.topp{
+    margin-top: 4.5%;
+}
+.top2{
+   color: white;
+}
+.blackk{
+    color: black !important;
+}
+.whitee{
+    color: white;
+}
+.sadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+.m_left{
+    margin-left: 20%;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.alignitem{
+    align-items: center;
+    justify-content: space-between;
+}
+.bg_img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(../img/s2.jpeg);
+    filter: grayscale(90%);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   }
+ 
+   .co_logo{
+  background-color: white;
+  margin-right: 1rem;
+  border: 1px solid black;
+   }
+   .co_logo img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+
+   }
+   .icon-location{
+
+   }
+   .main_container {
+    padding: 2em 0;
+    background-color: #f5f5f9;
+    min-height: calc(100vh - 269px);}
+
+
+    /* left side menu */
+   .menu_wrapper{
+    /* top: 85px; */
+    margin-top: 35px;
+    z-index: 8;
+   }
+   .menu{
+    font-size: 1rem;
+    font-style: none;
+    line-height: 2;
+
+   }
+   
+   .menu .item a {
+    text-decoration: none;
+
+    color: #777;
+    padding: 0;
+    display: inline;
+    position: relative;}
+/* right side cardss */
+.right_content{
+
+}
+.main_card{
+    border-radius: 0.75rem 0.75rem 0 0;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+
+}
+.btn-label {
+	/* position: relative; */
+	/* left: -12px; */
+	display: inline-block;
+	padding: 6px 12px;
+	background: rgba(0, 0, 0, 0.15);
+	border-radius: 3px 0 0 3px;
+}
+
+.btn-labeled {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.btn {
+	margin-bottom: 0px;
+}
+.card1 h2{
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+.bodr{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.mr{
+    margin-right: 10px;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+}
+/* card3 */
+.pollMain {
+    width: 100% !important;
+    /* padding: 1.6rem; */
+    /* margin-bottom: 1.5rem; */
+    /* border-radius: 0 0 0.75rem 0.75rem; */
+    background-color: #f5fdff;
+}
+.pollBoard{
+    width: 60%;
+}
+.pollImg{
+    height: 180px
+}
+.round{
+    border: 1px solid black;
+    border-radius: 1;
+    padding: 10px;
+}
+.price{
+    font-size: 35px;
+}
+.blue{
+    color: #1f5ca2 !important;
+}
+.bodr2{
+    border: 1px solid #1f5ca2;
+    font-size: 1.4rem;
+    padding: 0 1rem;
+    border-radius: 29px;
+    display: inline;
+    margin: auto;
+}
+.bar_val{
+    width: 100%;
+    height: 4px;
+    background-color: rgb(206, 197, 197);
+}
+.bar_val .bar_green{
+    background-color: rgb(117, 188, 11);
+    width: 19%;
+    height: 4px;
+}
+.bar_val .bar_yellow{
+    background-color: rgb(232, 149, 24);
+    width: 100%;
+    height: 4px;
+}
