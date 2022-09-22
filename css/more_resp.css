@@ -1,0 +1,144 @@
+@media(max-width: 991.98px) {
+    .bg_img {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(../img/s2.jpeg);
+        filter: grayscale(90%);
+        height: 400px;
+        width: 100%;
+        /* display: flex;
+        align-items: center; */
+       }
+    .co_logo{
+        height: 100px;
+
+        background-color: white;
+        margin-right: 1rem;
+        border: 1px solid black;
+         }
+         .co_logo img{
+          width: 100px;
+          height: 100px;
+          padding: 10px;
+      
+         }
+         .wiFull{
+            width: 100%;
+            display: block
+         }
+         .three{
+            display: inherit;
+            align-items: center;
+            width: 100%;
+            background-color: rgb(225 241 241);
+            margin-bottom: 10px;
+         }
+         .mid{
+            display: flex;
+            align-items: center;
+            padding: 10px;
+         }
+         .map1{
+            height: 200px;
+            width: 200px;
+         }
+         .table{
+            visibility: hidden;
+            clear: both;
+            float: left;
+            margin: 10px auto 5px 20px;
+            width: 28%;
+            display: none;
+         }
+         .left_part{
+            visibility: hidden;
+            clear: both;
+            float: left;
+            margin: 10px auto 5px 20px;
+            width: 28%;
+            display: none;
+         }
+         .pollImg{
+            visibility: hidden;
+            clear: both;
+            float: left;
+            margin: 10px auto 5px 20px;
+            width: 28%;
+            display: none;
+         }
+         .top2{
+            visibility: hidden;
+            clear: both;
+            float: left;
+            margin: 10px auto 5px 20px;
+            width: 28%;
+            display: none;
+         }
+         .menu_wrapper{
+            visibility: hidden;
+            clear: both;
+            float: left;
+            margin: 10px auto 5px 20px;
+            width: 28%;
+            display: none;
+         }
+         .hide1{
+            visibility: hidden;
+            clear: both;
+            float: left;
+            margin: 10px auto 5px 20px;
+            width: 28%;
+            display: none;
+         }
+         .hide_nav{
+            visibility: visible;
+            clear: both;
+            float: left;
+            /* margin: 10px auto 5px 20px; */
+            width: auto;
+            display: inline-flex;
+         
+         }
+         .top_m1{
+         margin-top: 700px;
+         color: black;
+         height: auto;
+         /* margin-bottom:150px; */
+         }
+         .color1{
+            color: black !important;
+         }
+         .color2{
+            background-color: aquamarine;
+            padding: 10px;
+            margin-top: 20px;
+         }
+         .h3{
+            font-size: 20px;
+            color: black;
+         }
+         .main_container{
+            margin-top: 200px;
+         }
+         .m1{
+            margin: 10px;
+         }
+         .fix_btn{
+            /* position: absolute; */
+            margin-top: 22%;
+
+         }
+         .bodr{
+            border: 1px solid black;
+            padding: 5px;
+            border-radius: 5px;
+            width: 100%;
+            align-items: center;
+        }
+        .hide_btns{
+            display: inline;
+          }.card1{
+            margin-top: 60px;
+            /* height: 100px; */
+            /* padding: 10px; */
+          }
+
+}

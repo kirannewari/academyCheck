@@ -7,55 +7,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/more.css" rel="stylesheet">
+    <link href="css/more_resp.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link
+        href="https://fonts.bunny.net/css?family=montserrat:200,300,400,500,700|nunito-sans:200,200i,300,300i,400,400i,600,700,800,900|open-sans:300,400,500,800"
+        rel="stylesheet" />
 </head>
 
 <body>
+   
     <section id="fixed_nav">
-        <nav class="navbar navbar-expand-sm bg-light navbar-dark fixed-top sadow">
-            <div class="container">
-                <a class="navbar-brand blackk"> <a href="more.html"><img class="logo" src="./img/AC.jpg"></a>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light px-5 fixed-top mb-5">
+            <div class="container-fluid d-flex align-items-center">
+                <a class="navbar-brand text-dark" href="javascript:void(0)"><img class="logo"
+                        src="./img/AC.jpg">AcademyCheck</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="mynavbar">
+                    <ul class="navbar-nav me-auto d-flex align-items-center">
+                        <li class="nav-item  d-flex align-items-center">
+                            <a class="nav-link">
+                                <div class="dropdown">
+                                    <button class="btn btn-outline-secondary dropdown-toggle btn_w1" type="button"
+                                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span class="pl-5 "><i class="bi-geo-alt-fill text-danger"></i>Delhi</span>
 
-                    <a href="#" class="small-heading px-3">AcademyCheck</a></a>
-
-                <div class="collapse navbar-collapse blackk" id="mynavbar">
-
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                                <div><input class="form-control mr-2" type="text" placeholder="Search"></div>
+                            </a>
+                        </li>
+                     
+                    </ul>
                     <form class="d-flex">
-                        <div class="dropdown">
-                            <button class="btn btn-outline-secondary dropdown-toggle btn_w1" type="button"
-                                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                <span class="pl-5 "><i class="bi-geo-alt-fill text-danger"></i>Delhi</span>
-
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </div><input class="form-control srch pl-5" type="text" placeholder="Search Coachings">
-
-                        <!-- <button class="btn btn-primary" type="button">Search</button> -->
-                    </form>
-                    <span class="align-items-center px-3 ml-5"><i class="bi-cart-fill text-big1"></i>
+                        <!-- <input class="form-control me-2" type="text" placeholder="Search"> -->
+                        <a class="nav-link" href="javascript:void(0)"> <span class="align-items-center px-3 ml-5"><i
+                            class="bi-cart-fill text-big1"></i>
                         <span class="small-heading align-items-center">Cart</span>
-                    </span>
-
-                    <button type="button" class="btn btn-outline-primary px-3 btn-rounded">
-                        Sign In
-                    </button>
-
+                    </span></a>
+                        <button class="btn btn-primary" type="button">Sign In</button>
+                    </form>
+                    <div class="hide_nav">
+                        
+                        <div class="container">
+                            <hr>
+                            <div class="collapse navbar-collapse" id="mynavbar">
+                               
+                              <ul class="navbar-nav me-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link small-heading" href="#">Explore Schools</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link small-heading" href="#">Discover Localities</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link small-heading" href="#">Admission Tracker</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle small-heading" href="#" role="button"
+                                        data-bs-toggle="dropdown">Resources</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Link</a></li>
+                                        <li><a class="dropdown-item" href="#">Another link</a></li>
+                                        <li><a class="dropdown-item" href="#">A third link</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link small-heading" href="#">My Dashboard</a>
+                                </li>
+                              </ul>
+                             
+                            </div>
+                          </div>
+                    </div>
                 </div>
             </div>
         </nav>
+    
     </section>
-    <div class="gap"></div>
-    <section id="scroll_nav my-5">
-        <nav class="navbar navbar-expand-sm bg-light topp">
-            <div class="container">
+   
 
-                <div class="collapse navbar-collapse navbar-nav d-flex flex-row justify-content-center"
-                    id="collapsibleNavbar">
+    <section id="scroll_nav">
+        
+            <nav class="navbar navbar-expand-sm navbar-light topp">
+            <div class="container-fluid">
+
+                <!-- <button class="navbar-toggler fix_btn" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar2">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar2">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link small-heading" href="#">Explore Schools</a>
@@ -65,9 +114,6 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link small-heading" href="#">Admission Tracker</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link small-heading" href="#">Compare Schools</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle small-heading" href="#" role="button"
@@ -85,12 +131,14 @@
                 </div>
             </div>
         </nav>
+
+    
     </section>
     <section id="fixed_bg">
         <div class="bg_img d-flex align-items-center">
             <div class="container">
                 <div class="top2"><small>Home > Delhi > Mother's Pride School, Dwarka</small></div>
-                <div class="row">
+                <div class="row top_m1">
                     <div class="col-sm-8 col-md-8">
                         <div class="d-flex">
                             <div class="co_logo">
@@ -99,21 +147,32 @@
                             <div class="whitee">
                                 <h1 class="h3">
                                     Mother’s Pride High School&nbsp;<small>(MPHS DW17),</small> Dwarka</h1>
-                                <div class="d-flex align-items-center">
-                                    <i class="bi bi-bookmark-plus-fill text-light pl-5 "></i> &nbsp; Pocket 2
+                                <div class="d-flex align-items-center color1">
+                                    <i class="bi bi-bookmark-plus-fill text-light pl-5 color1"></i> &nbsp; Pocket 2
                                     Institutional area, Sector 17, Dawrka, South West Delhi &nbsp;
-                                    <button type="button" class="btn btn-outline-light px-3 btn-sm">
+                                    <button type="button" class="btn btn-outline-light px-3 btn-sm hide1">
                                         <i class="bi bi-bookmark-plus-fill text-light"></i>Show on map
                                     </button>
                                 </div>
-                                <div class="d-flex"> <i class="bi bi-bookmark-plus-fill text-light pl-5 "></i> &nbsp;
+                                <div class="d-flex"> <i class="bi bi-bookmark-plus-fill text-light pl-5 hide1"></i> &nbsp;
                                     1234</div>
                             </div>
+                            
+                        </div>
+                        <div class=" hide_btns py-5 px-3">
+                            <button type="button" class="btn btn-outline-secondary btn-sm">
+                                <i class="bi-square"></i> Compare
+                            </button><button type="button" class="btn btn-outline-primary mx-3 btn-sm">
+                                <i class="bi-bell"></i>Notify Me
+                            </button><button type="button" class="btn btn-outline-danger btn-sm">
+                                <i class="bi-heart"></i> Shortlist
+                            </button>
                         </div>
                     </div>
-                    <div class="utility-buttons col-sm-4 col-md-4">
-                        <div class="d-flex align-items-end flex-column utility-buttons-inner"><b
-                                style="color: white;">varifed coaching</b></div>
+                
+                    <div class="utility-buttons col-sm-4 col-sm-4 color2">
+                        <div class="d-flex  flex-column utility-buttons-inner color1 varified"><b
+                               >varifed coaching</b></div>
                     </div>
                 </div>
             </div>
@@ -161,8 +220,9 @@
                         <div class="right_content">
                             <div class="card1">
                                 <div
-                                    class="w-100 d-flex justify-content-between align-items-center mb-3 rounded py-2 px-4 bg-white shadow-sm eligibilityDropdown position-sticky">
-                                    <div class="d-flex bodr">
+                                    class=" mb-3 rounded py-2 px-4 bg-white shadow-sm eligibilityDropdown position-sticky ">
+                                    <div class="row d-flex  align-items-center">
+                                    <div class="col-sm-6 bodr">
                                         <span class="d-flex align-items-center">
                                             <i class="bi bi-bookmark-plus-fill text-primary px-3 border-left"></i>
                                             <span class="border-right">
@@ -175,7 +235,7 @@
 
                                         </span>
                                     </div>
-                                    <div class="right ">
+                                    <div class="col-sm-6 col-md-6 col-lg-6 m1 d-flex hide1">
                                         <button type="button" class="btn btn-outline-secondary btn-sm">
                                             <i class="bi-square"></i> Compare
                                         </button><button type="button" class="btn btn-outline-primary mx-3 btn-sm">
@@ -184,6 +244,7 @@
                                             <i class="bi-heart"></i> Shortlist
                                         </button>
                                     </div>
+                                </div>
                                 </div>
                             </div>
                             <div class="card2">
@@ -214,15 +275,15 @@
                                         </div>
                                     </div>
 
-                                    <table class="table table-hover table2">
-                                        <thead class="table-success table2">
-                                            <tr class="pp">
+                                    <table class="table table-hover">
+                                        <thead class="table-success">
+                                            <tr">
                                                 <th>Class</th>
                                                 <th>Session</th>
                                                 <th>Application Date(s)</th>
                                                 <th>Application Fees</th>
                                                 <th>Action</th>
-                                            </tr>
+                                                </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
@@ -324,7 +385,7 @@
                                             <img src="./img/1i.png" style="width: 30px; height:30px">Poll & Opinion
                                         </h6>
                                         <div class="row bg-white  mx-1">
-                                            <div class="col-8 pollBoard py-3 line_h1">
+                                            <div class="col-sm-8 pollBoard py-3 line_h1">
                                                 <h5 class="h5 text-center"> Is this school among your top 3 preferncees?
                                                 </h5>
                                                 <div class="text-center py-3">
@@ -342,7 +403,7 @@
                                                     view opinions of other parents </p>
 
                                             </div>
-                                            <div class="col-4 d-flex justify-content-end"><img class="pollImg"
+                                            <div class="col-sm-4 d-flex justify-content-end"><img class="pollImg"
                                                     src="./img/1i.png">
                                                 <div class=" text-center">
                                                     <span
@@ -492,7 +553,7 @@
                                             <img src="./img/1i.png" style="width: 30px; height:30px">Poll & Opinion
                                         </h6>
                                         <div class="row bg-white mx-1">
-                                            <div class="col-8 pollBoard py-3">
+                                            <div class="col-sm-8 pollBoard py-3">
                                                 <h5 class="text-center"> Is this school among your top 3 preferncees?
                                                 </h5>
                                                 <div class="text-center py-3">
@@ -508,7 +569,7 @@
                                                     view opinions of other parents </p>
 
                                             </div>
-                                            <div class="col-4 d-flex justify-content-end"><img class="pollImg"
+                                            <div class="col-sm-4 d-flex justify-content-end"><img class="pollImg"
                                                     src="./img/1i.png">
                                                 <div class=" text-center">
                                                     <span class="h5 d-block mt-5 bodr2">6</span>
@@ -698,7 +759,7 @@
                                             <img src="./img/1i.png" style="width: 30px; height:30px">Poll & Opinion
                                         </h6>
                                         <div class="row bg-white  mx-4">
-                                            <div class="col-8 pollBoard py-3">
+                                            <div class="col-sm-8 pollBoard py-3">
                                                 <h5 class="text-center"> Is this school among your top 3 preferncees?
                                                 </h5>
                                                 <div class="text-center py-3">
@@ -714,7 +775,7 @@
                                                     view opinions of other parents </p>
 
                                             </div>
-                                            <div class="col-4 d-flex justify-content-end"><img class="pollImg"
+                                            <div class="col-sm-4 d-flex justify-content-end"><img class="pollImg"
                                                     src="./img/1i.png">
                                                 <div class=" text-center">
                                                     <span class="h5 d-block mt-5 bodr2">6</span>
@@ -878,7 +939,7 @@
                                             <img src="./img/1i.png" style="width: 30px; height:30px">Poll & Opinion
                                         </h6>
                                         <div class="row bg-white  mx-4">
-                                            <div class="col-8 pollBoard py-3">
+                                            <div class="col-sm-8 pollBoard py-3">
                                                 <h5 class="text-center"> Is this school among your top 3 preferncees?
                                                 </h5>
                                                 <div class="text-center py-3">
@@ -894,7 +955,7 @@
                                                     view opinions of other parents </p>
 
                                             </div>
-                                            <div class="col-4 d-flex justify-content-end"><img class="pollImg"
+                                            <div class="col-sm-4 d-flex justify-content-end"><img class="pollImg"
                                                     src="./img/1i.png">
 
 
@@ -923,14 +984,16 @@
                                                     aria-controls="home" aria-selected="true">Award</button>
                                             </li>
                                             <li class="nav-item" role="presentation">
-                                                <button class="nav-link text-danger text-big3" id="profile-tab" data-bs-toggle="tab"
-                                                    data-bs-target="#profile" type="button" role="tab"
-                                                    aria-controls="profile" aria-selected="false">Test</button>
+                                                <button class="nav-link text-danger text-big3" id="profile-tab"
+                                                    data-bs-toggle="tab" data-bs-target="#profile" type="button"
+                                                    role="tab" aria-controls="profile"
+                                                    aria-selected="false">Test</button>
                                             </li>
                                             <li class="nav-item" role="presentation">
-                                                <button class="nav-link text-danger text-big3" id="contact-tab" data-bs-toggle="tab"
-                                                    data-bs-target="#contact" type="button" role="tab"
-                                                    aria-controls="contact" aria-selected="false">Result</button>
+                                                <button class="nav-link text-danger text-big3" id="contact-tab"
+                                                    data-bs-toggle="tab" data-bs-target="#contact" type="button"
+                                                    role="tab" aria-controls="contact"
+                                                    aria-selected="false">Result</button>
                                             </li>
                                         </ul>
                                         <div class="tab-content" id="myTabContent">
@@ -948,10 +1011,12 @@
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade" id="profile" role="tabpanel"
-                                                aria-labelledby="profile-tab"> <span class="w-100 d-block text-big text-muted">Academics</span></div>
+                                                aria-labelledby="profile-tab"> <span
+                                                    class="w-100 d-block text-big text-muted">Academics</span></div>
                                             <div class="tab-pane fade" id="contact" role="tabpanel"
-                                                aria-labelledby="contact-tab"> <span class=" text-center nb d-block py-3">View More<i
-                                                    class="bi-arrow-down-circle-fill m-1"></i></span></div>
+                                                aria-labelledby="contact-tab"> <span
+                                                    class=" text-center nb d-block py-3">View More<i
+                                                        class="bi-arrow-down-circle-fill m-1"></i></span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -973,9 +1038,9 @@
                             <div class="card10">
                                 <div
                                     class="w-100 mb-3 rounded py-3 px-4 bg-white shadow-sm eligibilityDropdown position-sticky">
-                                    <div class="w-100 align-items-center d-flex justify-content-between">
-                                        <h2 class="h22">Facilities</h2>
-                                        <span class="three px-1"><span class="border-bottom m-1 mb-2 text-success"><i
+                                    <div class="row w-100 align-items-center d-flex justify-content-between">
+                                        <h2 class="col-sm-6 h22 wiFull">Facilities</h2>
+                                        <span class="col-sm-6 three px-1"><span class="border-bottom m-1 mb-2 text-success"><i
                                                     class="bi-check-square-fill text-success m-1"></i>Avilable</i></span>
                                             <span class="border-bottom m-1 mb-2 text-danger"><i
                                                     class="bi-x-circle-fill text-danger m-1"></i>Not Avilable</i></span>
@@ -985,7 +1050,7 @@
                                         </span>
                                     </div>
                                     <div class="row">
-                                        <div class="col-3">
+                                        <div class="col-3 left_part">
                                             <div class="line_h py-3"><small>All Facalities(17/99)</small><br>
                                                 <small class="text-success">44%</small>
                                                 <div class="bar_val">
@@ -1117,7 +1182,7 @@
 
                                     </div>
                                     <div class="row">
-                                        <div class="col-3">
+                                        <div class="col-sm-3">
                                             <div class="border m-3 p-1">
                                                 <div class="d-flex">
                                                     <img src="./img/1i.png" style="height: 50px;">
@@ -1129,7 +1194,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-3">
+                                        <div class="col-sm-3">
                                             <div class="border m-3 p-1">
                                                 <div class="d-flex">
                                                     <img src="./img/1i.png" style="height: 50px;">
@@ -1141,7 +1206,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-3">
+                                        <div class="col-sm-3">
                                             <div class="border m-3 p-1">
                                                 <div class="d-flex">
                                                     <img src="./img/1i.png" style="height: 50px;">
@@ -1153,7 +1218,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-3">
+                                        <div class="col-sm-3">
                                             <div class="border m-3 p-1">
                                                 <div class="d-flex">
                                                     <img src="./img/1i.png" style="height: 50px;">
@@ -1182,12 +1247,27 @@
                                         </div>
 
                                     </div>
-                                    <div class="d-flex justify-content-between p-1">
-                                        <img src="./img/carousel-1.jpg" style="width: 200px; height: 200px;">
-                                        <img src="./img/carousel-1.jpg" style="width: 200px; height: 200px;">
-                                        <img src="./img/carousel-1.jpg" style="width: 200px; height: 200px;">
-                                        <img src="./img/carousel-1.jpg" style="width: 200px; height: 200px;">
+                                    <div class="row px-1 py-1">
+                                        <div class="col-sm-3 px-1 py-1"> <img src="./img/carousel-1.jpg"
+                                                style="width: 200px; height: 200px;">
+                                        </div>
+                                        <div class="col-sm-3 px-1 py-1"> <img src="./img/carousel-1.jpg"
+                                                style="width: 200px; height: 200px;">
+                                        </div>
+                                        <div class="col-sm-3 px-1 py-1"> <img src="./img/carousel-1.jpg"
+                                                style="width: 200px; height: 200px;">
+                                        </div>
+                                        <div class="col-sm-3 px-1 py-1"> <img src="./img/carousel-1.jpg"
+                                                style="width: 200px; height: 200px;">
+                                        </div>
+                                       
                                     </div>
+                                    <!-- <div class="d-flex justify-content-between p-1">
+                                        <img src="./img/carousel-1.jpg" style="width: 200px; height: 200px;">
+                                        <img src="./img/carousel-1.jpg" style="width: 200px; height: 200px;">
+                                        <img src="./img/carousel-1.jpg" style="width: 200px; height: 200px;">
+                                        <img src="./img/carousel-1.jpg" style="width: 200px; height: 200px;">
+                                    </div> -->
                                 </div>
 
 
@@ -1225,8 +1305,8 @@
                                             </div>
 
                                         </div>
-                                        <div class="col-7">
-                                            <img src="./img/map.png">
+                                        <div class="col-7 hide1">
+                                            <img class="mx-auto d-block" src="./img/map.png" style="width:50%">
                                         </div>
                                     </div>
                                 </div>
@@ -1258,31 +1338,38 @@
     <section id="similer" class="border-bottom">
         <div class="container py-5">
             <h2 class="h22 py-2">Nearby Coachings</h2>
-            <div class="d-flex justify-content-between">
-                <div class="">
+            <div class="row px-1">
+                <div class="col-sm-4">
                     <img src="./img/blog-1.jpg" class="similer">
-                    <div class="py-2 nb"> <p>Krishna mandir coaching, vivek <br>vihar metro station</p>
+                    <div class="py-2 nb">
+                        <p>Krishna mandir coaching, vivek <br>vihar metro station</p>
                     </div>
                 </div>
-               
-                <div class="">
+
+                <div class="col-sm-4">
                     <img src="./img/blog-1.jpg" class="similer">
-                    <div class="py-2 nb"> <p>Krishna mandir coaching, vivek <br>vihar metro station</p>
+                    <div class="py-2 nb">
+                        <p>Krishna mandir coaching, vivek <br>vihar metro station</p>
                     </div>
                 </div>
-                <div class="">
+                <!-- <div class="col-2">
                     <img src="./img/blog-1.jpg" class="similer">
-                    <div class="py-2 nb"> <p>Krishna mandir coaching, vivek <br>vihar metro station</p>
-                    </div>
-                </div>   <div class="">
-                    <img src="./img/blog-1.jpg" class="similer">
-                    <div class="py-2 nb"> <p>Krishna mandir coaching, vivek <br>vihar metro station</p>
-                    </div>
-                </div>   <div class="">
-                    <img src="./img/blog-1.jpg" class="similer">
-                    <div class="py-2 nb"> <p>Krishna mandir coaching, vivek <br>vihar metro station</p>
+                    <div class="py-2 nb">
+                        <p>Krishna mandir coaching, vivek <br>vihar metro station</p>
                     </div>
                 </div>
+                <div class="col-2">
+                    <img src="./img/blog-1.jpg" class="similer">
+                    <div class="py-2 nb">
+                        <p>Krishna mandir coaching, vivek <br>vihar metro station</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <img src="./img/blog-1.jpg" class="similer">
+                    <div class="py-2 nb">
+                        <p>Krishna mandir coaching, vivek <br>vihar metro station</p>
+                    </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -1363,23 +1450,23 @@
 
 
                 </div>
-                <div class="col-2">
+                <div class="col-sm-2">
 
                     <b class="text-light">Cities</b>
                 </div>
-                <div class="col-2">
+                <div class="col-sm-2">
                     <b class="text-light">Explore Coachings</b>
 
                 </div>
-                <div class="col-2">
+                <div class="col-sm-2">
                     <b class="text-light">Admission Tracker</b>
 
                 </div>
-                <div class="col-2">
+                <div class="col-sm-2">
                     <b class="text-light">For Students</b>
 
                 </div>
-                <div class="col-2">
+                <div class="col-sm-2">
                     <b class=" text-light">Centers</b>
 
                 </div>
