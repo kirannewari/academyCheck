@@ -107,7 +107,7 @@
             color: black !important;
          }
          .color2{
-            background-color: aquamarine;
+            background-color: rgb(188, 244, 225);
             padding: 10px;
             margin-top: 20px;
          }
@@ -115,9 +115,7 @@
             font-size: 20px;
             color: black;
          }
-         .main_container{
-            margin-top: 200px;
-         }
+        
          .m1{
             margin: 10px;
          }
@@ -135,10 +133,25 @@
         }
         .hide_btns{
             display: inline;
-          }.card1{
-            margin-top: 60px;
-            /* height: 100px; */
-            /* padding: 10px; */
           }
-
+          .line_h3{
+            line-height: 10px;
+          }
+          .pr1{
+            padding: 10px;
+          }
+          .hide_btns2{
+            display: inline;
+          }
+          .h2{
+            height: 50px;
+            margin-bottom: 100px;
+          }
+          .man_big{
+            height: 64px;
+            width: 64px;
+          }
+          .hide_pro{
+display: block;
+          }
 }
