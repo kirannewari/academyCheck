@@ -1,14 +1,14 @@
 body {
     margin: 0;
     /* font-family: "Nunito Sans",sans-serif,"Helvetica Neue Light","Helvetica Neue","Helvetica","Arial"; */
-    
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 0.875rem;
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
     text-align: left; 
 }
-body,
+/* body,
 h1,
 h2,
 h3,
@@ -30,9 +30,9 @@ select {
     font-family: 'Montserrat', sans-serif; 
 font-family: 'Nunito Sans', sans-serif;
  font-family: 'Open Sans', sans-serif; 
-}
+} */
 .h22{
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: -0.5px;
     color: rgb(55, 53, 53);
 }

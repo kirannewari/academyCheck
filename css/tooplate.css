@@ -74,7 +74,7 @@ p {
 	font-weight: 700;
 }
 .navbar a { color: rgb(243, 235, 235); 
-padding: 0px 30px;
+/* padding: 0px 30xpx; */
 font-size: 18px;
 
 }
@@ -103,8 +103,8 @@ font-size: 18px;
 
 .nav-link.active,
 .nav-link:hover {
-	color: white;
-	background: #121010;	
+	color: #ffffff;
+	background: #c10404;	
 }
 
 .tm-top-bar .navbar-expand-lg .navbar-nav .nav-link { padding: 50px 35px; }
@@ -126,17 +126,25 @@ font-size: 18px;
 	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
 }
 .justify-content-between{
-	/* background-color: #042c96; */
+	/* background-color: #ffffff; */
 	/* padding: 10px; */
 	z-index: 1;
 	/* background-color: #042c96; */
     padding: 20px;
 }
 @media(max-width: 991.98px) {
+	.justify-content-between{
+		background-color: #ffffff;
+		/* padding: 10px; */
+		z-index: 1;
+		/* background-color: #042c96; */
+		padding: 10px;
+		margin: 5px;
+	}
 	.logo{
 		height: 80px;
 		width: 80px;
-		margin-left: -10px;
+		margin-left: -20px;
 
 	}
 	.navbar-brand{
