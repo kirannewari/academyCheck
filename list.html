@@ -7,258 +7,431 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free Website Template" name="keywords">
     <meta content="Free Website Template" name="description">
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <!-- CSS Libraries -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/more.css" rel="stylesheet">
+    <link href="css/first.css" rel="stylesheet">
     <link href="css/list.css" rel="stylesheet">
-    <link href="css/tooplate.css" rel="stylesheet">
+
+
+    <link href="css/more_resp.css" rel="stylesheet">
+    <link href="css/owl_min.css" rel="stylesheet">
+    <link href="css/owl_theme.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link
+        href="https://fonts.bunny.net/css?family=montserrat:200,300,400,500,700|nunito-sans:200,200i,300,300i,400,400i,600,700,800,900|open-sans:300,400,500,800"
+        rel="stylesheet" />
+    <!-- Favicon -->
+
 
 </head>
 
 <body>
-    <!-- Top Bar Start -->
-
-    <!-- Top Bar End -->
-
-    <!-- Nav Bar Start -->
-    <div class="nav-bar">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-                <a href="more.html"><img class="logo" src="./img/AC.jpg"></a>
-                <a href="#" class="navbar-brand black">AcademyCheck</a>
-                <button type="button" class="navbar-toggler red" data-toggle="collapse" data-target="#navbarCollapse">
+    <section id="fixed_nav">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light px-2 fixed-top mb-5">
+            <div class="container-fluid d-flex align-items-center">
+                <a class="navbar-brand text-dark d-flex align-items-center" href="index.html"><img class="logo"
+                        src="./img/AC.jpg"><h3 class="h22 m-1">AcademyCheck</h3></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <div class="collapse navbar-collapse " id="mynavbar">
+                    <ul class="navbar-nav me-auto d-flex align-items-center">
+                        <li class="nav-item  d-flex align-items-center">
+                            <a class="nav-link">
+                                <div class="dropdown">
+                                    <button class="btn btn-outline-secondary dropdown-toggle btn_w1" type="button"
+                                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span class="pl-5 "><i class="bi-geo-alt-fill text-danger"></i>Delhi</span>
 
-                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav mr-auto">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="list.html" class="nav-item nav-link">Explore Coachings</a>
-                        <a href="" class="nav-item nav-link">Admission Tracker</a>
-                        <a href="" class="nav-item nav-link">Compare Coachings</a>
-                        <!-- <a href="location.html" class="nav-item nav-link">Washing Points</a> -->
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources</a>
-                            <div class="dropdown-menu">
-                                <a href="" class="dropdown-item">Knowledge bank</a>
-                                <a href="" class="dropdown-item">Results</a>
-                                <!-- <a href="team.html" class="dropdown-item">Team Member</a> -->
-                                <a href="" class="dropdown-item">Exams</a>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                                <div><input class="form-control mr-2" type="text" placeholder="Search"></div>
+                            </a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex">
+                        <!-- <input class="form-control me-2" type="text" placeholder="Search"> -->
+                        <a class="nav-link" href="javascript:void(0)"> <span class="align-items-center px-3 ml-5"><i
+                                    class="bi-cart-fill text-big1"></i>
+                                <span class="small-heading align-items-center">Cart</span>
+                            </span></a>
+                        <button class="btn btn-primary" type="button">Sign In</button>
+                    </form>
+                    <div class="hide_nav">
+
+                        <div class="container">
+                            <hr>
+                            <div class="collapse navbar-collapse" id="mynavbar">
+
+                                <ul class="navbar-nav me-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link small-heading" href="#">Explore Schools</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link small-heading" href="#">Discover Localities</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link small-heading" href="#">Admission Tracker</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle small-heading" href="#" role="button"
+                                            data-bs-toggle="dropdown">Resources</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Link</a></li>
+                                            <li><a class="dropdown-item" href="#">Another link</a></li>
+                                            <li><a class="dropdown-item" href="#">A third link</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link small-heading" href="#">My Dashboard</a>
+                                    </li>
+                                </ul>
+
                             </div>
                         </div>
-                        <!-- <a href="contact.html" class="nav-item nav-link">Contact</a> -->
-                    </div>
-                    <div class="ml-auto">
-                        <button class="btn btn-light">Sign In</button>
                     </div>
                 </div>
-            </nav>
-        </div>
-    </div>
-    <!-- Nav Bar End -->
-
-    <!-- ads slide of current paid cochings -->
-    <div class="ad">
-        <h2 style="color: rgb(8, 7, 7); text-align: center;">
-            cochings ad slides
-
-        </h2>
-    </div>
-
-
-    <!-- end -->
-    <!-- coaching list -->
-    <section class="container">
-        <div class="row pa" >
-            <div class="col-sm-4 ma1 ">
-                <div class="card_left">
-                    <h4>Filters</h4>
-                    <hr>
-                    <p>Address</p>
-                    <hr>
-
-                    <p>Likes</p>
-                    <hr>
-
-                    <!-- <p>Last selected students number</p> -->
-                    <p> Full Course</p>
-                    <hr>
-
-                    <p>Duration & Timing</p>
-                    <hr>
-
-                    <p>Fee</p>
-                    <hr>
-
-                </div>
-
             </div>
-
-            <div class="col-sm-8" id="lists">
-
-                <h4>Coachings in Jaipur</h4>
-
-            </div>
-
-        </div>
+        </nav>
 
     </section>
 
 
-    <!-- Service End -->
+    <section id="scroll_nav">
 
+        <nav class="navbar navbar-expand-sm navbar-light topp">
+            <div class="container-fluid">
 
-    <!-- Testimonial Start -->
-    <div class="testimonial">
-        <div class="container">
-            <div class="section-header text-center">
-                <p>Testimonial</p>
-                <h2>What our clients say</h2>
+                <!-- <button class="navbar-toggler fix_btn" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar2">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar2">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link small-heading" href="#">Explore Schools</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link small-heading" href="#">Discover Localities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link small-heading" href="#">Admission Tracker</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle small-heading" href="#" role="button"
+                                data-bs-toggle="dropdown">Resources</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Link</a></li>
+                                <li><a class="dropdown-item" href="#">Another link</a></li>
+                                <li><a class="dropdown-item" href="#">A third link</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link small-heading" href="#">My Dashboard</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="owl-carousel testimonials-carousel">
-                <div class="testimonial-item">
-                    <img src="img/testimonial-1.jpg" alt="Image">
-                    <div class="testimonial-text">
-                        <h3>Client Name</h3>
-                        <h4>Profession</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu
-                            metus tortor auctor gravid
-                        </p>
-                    </div>
-                </div>
-                <div class="testimonial-item">
-                    <img src="img/testimonial-2.jpg" alt="Image">
-                    <div class="testimonial-text">
-                        <h3>Client Name</h3>
-                        <h4>Profession</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu
-                            metus tortor auctor gravid
-                        </p>
-                    </div>
-                </div>
-                <div class="testimonial-item">
-                    <img src="img/testimonial-3.jpg" alt="Image">
-                    <div class="testimonial-text">
-                        <h3>Client Name</h3>
-                        <h4>Profession</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu
-                            metus tortor auctor gravid
-                        </p>
-                    </div>
-                </div>
-                <div class="testimonial-item">
-                    <img src="img/testimonial-4.jpg" alt="Image">
-                    <div class="testimonial-text">
-                        <h3>Client Name</h3>
-                        <h4>Profession</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu
-                            metus tortor auctor gravid
-                        </p>
+        </nav>
+
+
+    </section>
+    <section id="fixed_bg">
+        <div class="bg_img d-flex align-items-center">
+            <div class="container hide1">
+                <div class="top2"><small>Home > Delhi > Mother's Pride School, Dwarka</small></div>
+                <div class="row top_m1">
+                    <div class="col-sm-8 col-md-8">
+                        <div class="d-flex">
+                            <div class="co_logo">
+                                <img src="./img/1i.png">
+                            </div>
+                            <div class="whitee ">
+                                <h1 class="h3 coName">
+                                    Mother’s Pride High School&nbsp;<small>(MPHS DW17),</small> Dwarka</h1>
+                                <div class="d-flex align-items-center color1">
+                                    <i class="bi bi-bookmark-plus-fill text-light pl-5 color1"></i> &nbsp; Pocket 2
+                                    Institutional area, Sector 17, Dawrka, South West Delhi &nbsp;
+                                    <button type="button" class="btn btn-outline-light px-3 btn-sm hide1">
+                                        <i class="bi bi-bookmark-plus-fill text-light"></i>Show on map
+                                    </button>
+                                </div>
+                                <div class="d-flex"> <i class="bi bi-bookmark-plus-fill text-light pl-5 hide1"></i>
+                                    &nbsp;
+                                    1234</div>
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Testimonial End -->
-
-
-    <!-- Footer Start -->
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer-contact">
-                        <h2>Get In Touch</h2>
-                        <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
-                        <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
-                        <p><i class="fa fa-envelope"></i>info@example.com</p>
-                        <div class="footer-social">
-                            <a class="btn" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn" href=""><i class="fab fa-instagram"></i></a>
-                            <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
+        <!-- responsive website -->
+        <div class="row hide_btns">
+            <div class="py-1 px-3 col-sm-8">
+                <div class="d-flex py-3">
+                    <div class="co_logo">
+                        <img src="./img/1i.png">
+                    </div>
+                    <div class="whitee color1">
+                        <h1 class="h3">
+                            Mother’s Pride High School</h1>
+                        <div class=" color1">
+                            <i class="bi bi-bookmark-plus-fill text-light pl-5 color1"></i> &nbsp; Pocket 2
+                            Institutional area, Sector 17
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer-link">
-                        <h2>Popular Links</h2>
-                        <a href="">About Us</a>
-                        <a href="">Contact Us</a>
-                        <a href="">Our Service</a>
-                        <a href="">Service Points</a>
-                        <a href="">Pricing Plan</a>
+                <button type="button" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi-square"></i> Compare
+                </button><button type="button" class="btn btn-outline-primary mx-3 btn-sm">
+                    <i class="bi-bell"></i>Notify Me
+                </button><button type="button" class="btn btn-outline-danger btn-sm">
+                    <i class="bi-heart"></i> Shortlist
+                </button>
+            </div>
+            <div class=" col-sm-4 color2">
+                <div class="d-flex color1"><b>varifed coaching</b></div>
+            </div>
+        </div>
+    </section>
+    <!-- end -->
+    <!-- coaching list -->
+
+    <section class="py-5 container">
+        <div class="">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card_left">
+                        <h4 class="p-2">Filters</h4>
+                        <hr>
+                        <p class="p-2">Address</p>
+                        <hr>
+                        <p class="p-2">Likes</p>
+                        <hr>
+                        <!-- <p>Last selected students number</p> -->
+                        <p class="p-2"> Full Course</p>
+                        <hr>
+                        <p class="p-2">Duration & Timing</p>
+                        <hr>
+                        <p class="p-2">Fee</p>
+                        <hr>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer-link">
-                        <h2>Useful Links</h2>
-                        <a href="">Terms of use</a>
-                        <a href="">Privacy policy</a>
-                        <a href="">Cookies</a>
-                        <a href="">Help</a>
-                        <a href="">FQAs</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer-newsletter">
-                        <h2>Newsletter</h2>
-                        <form>
-                            <input class="form-control" placeholder="Full Name">
-                            <input class="form-control" placeholder="Email">
-                            <button class="btn btn-custom">Submit</button>
-                        </form>
+                <div class="col-sm-8">
+                    <h3 class="h22">Coachings in Jaipur</h3>
+                    <div id="lists">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container copyright">
-            <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved. Designed By <a
-                    href="https://htmlcodex.com">HTML Codex</a></p>
+      
+        <div class="container border long-card p-3">
+            <b>Locality Trends</b><small>See coachings in your locality and students can find easlily</small>
         </div>
-    </div>
-    <!-- Footer End -->
+    </section>
 
-    <!-- Back to top button -->
-    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
-    <!-- Pre Loader -->
-    <div id="loader" class="show">
-        <div class="loader"></div>
-    </div>
+
+    <section id="fee" class="container">
+        <h3 class="h22 my-3">Coachings in Jaipur with Fees Structure</h3>
+        <table class="table table-bordered">
+            <thead style="background-color: #1f5ca2 !important;color:aliceblue">
+                <tr>
+                    <th>Coachings in Jaipur</th>
+                    <th>Monthly Fee</th>
+                    <th>View Fee Struture</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                </tr>
+                <tr>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="4-topic" class="container">
+        <h3 class="h22 my-3">Coachings in Jaipur</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ducimus, corrupti dolor asperiores illo
+            iste, natus esse ab ad est repudiandae aliquam incidunt, molestiae suscipit dicta modi obcaecati cumque
+            aliquid.</p>
+    </section>
+    <section id="listing" class="container">
+        <h3 class="h22 my-3">Coachings in Jaipur</h3>
+        <ul>
+            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, omnis!</li>
+            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, omnis!</li>
+            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, omnis!</li>
+        </ul>
+    </section>
+    <section id="table2" class="container">
+        <h3 class="h22 my-3">Admiision Dates</h3>
+        <table class="table table-bordered">
+            <thead style="background-color: #1f5ca2 !important;color:aliceblue">
+                <tr>
+                    <th>Course</th>
+                    <th>Dates</th>
+                    <th>View Fee Struture</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                </tr>
+                <tr>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="youtube" class="container text-center">
+        <div class="row">
+            <div class="col-sm-6">
+                <h3 class="h22 my-3">Jaipur Coaching</h3><img src="./img/2i.png">
+            </div>
+            <div class="col-sm-6">
+                <h3 class="h22 my-3">Delhi Coaching</h3><img src="./img/3i.png">
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="faq">
+        <div class="container py-5">
+            <div class=" w-100 mb-3 rounded py-3 px-4 bg-white shadow-sm
+                eligibilityDropdown position-sticky">
+                <h3 class="h22 my-3">FAQ</h3>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                What is Mothe pride Fee struture?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion
+                                body.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Are admission open at Mothe pride?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion
+                                body. Let's imagine this being filled with some actual content.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Does Mother pride has hostel Facilities?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                                body. Nothing more exciting happening here in terms of content, but just filling up the
+                                space to make it look, at least at first glance, a bit more representative of how this
+                                would look in a real-world application.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="explore">
+        <div class="container py-5">
+            <h3 class="h22">Explore options for you</h3>
+            <h6>Class in Dawrka, Delhi</h6>
+        </div>
+    </section>
+    <section id="footer">
+        <div class=" nb1">
+            <div class="row container p-5">
+                <div class="col-sm-2 text-light">
+                    <div class="">
+                        <img src="./img/2i.png" class="light">
+                        <h4>For Coachings</h4>
+                        <b class="border-bottom text-light">Manage Coachings</b>
+                        <hr>
+                    </div>
+
+
+                </div>
+                <div class="col-sm-2">
+
+                    <b class="text-light">Cities</b>
+                </div>
+                <div class="col-sm-2">
+                    <b class="text-light">Explore Coachings</b>
+
+                </div>
+                <div class="col-sm-2">
+                    <b class="text-light">Admission Tracker</b>
+
+                </div>
+                <div class="col-sm-2">
+                    <b class="text-light">For Students</b>
+
+                </div>
+                <div class="col-sm-2">
+                    <b class=" text-light">Centers</b>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Service End -->
 
     <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
 
 
     <script>
@@ -271,55 +444,73 @@
                     console.log('coaching list', resp);
                     if (resp.data) {
                         setData(resp.data);
+
                     }
                 });
         }
 
         function setData(data) {
             let productDiv = '';
-            for (let i = 0; i < 5; i++) {
+            for (let i = 0; i < 1; i++) {
                 productDiv = productDiv + `
-                <div class="card_right ma1">
-                    <div class="cont">
-                        <img src="${data[i].logo}" alt="John"
-                            style="width:147px; height: 132px; margin:2%; position: absolute;">
-                        <div class="text">
-                            <h4>${data[i].name}</h4>
-                            <i class='fas fa-map-marker-alt' style="font-size:15px"></i><span
-                                style="padding: 20px;">${data[i].addressf}</span>
-                          <br>
-                            <i class='fas fa-thumbs-up' style='font-size:10px'></i><span
-                                style="padding: 20px;">Likes</span>  <br>
-                            <!-- <p>Last selected students number</p> -->
-                            <i class='fas fa-book-open' style='font-size:10px'></i><span
-                            style="padding: 20px;">Course</span>  <br>
-                            <i class='fas fa-money-bill-wave' style='font-size:10px'></i><span
-                            style="padding: 20px;">Fees:</span>  <br>
-                            <i class='fas fa-search' style='font-size:10px'></i><span
-                            style="padding: 20px;">Searched:</span>  <br>
+                <div class="card_right my-3 py-3 px-3">
+        <div class="row">
+            <div class="col-4 d-flex align-items-center  justify-content-center"> <img class="mx-auto d-block" src="${data[i].logo}" alt="John"
+                    >
+            </div>
+            <div class="col-8">
+                <div class="row">
+        <div class="col-6">
+            <h4 class="hh4">${data[i].name}</h4>
+        </div>
+       
+            <div class="col-sm-4 ">
+                <div class=" d-flex px-3">
+                    <img src="./img/1i.png" alt="John" style="height: 40px;">
+                    <span><small class="d-block">Official</small>
+                        <p class="">Application Partner</p></span>
+                           </div>        </div>
+            <div class="col-sm-2 "> <button class="btn btn-outline-danger mx-1">1500</button></div>
+        </div>
+                    <small>address</small><br>
+                    <span class="text-secondary"><i class="bi-question-circle-fill m-1"></i>${data[i].addressf}
+                        Avilable</i></span><br>
+                    <span class="text-secondary"><i class="bi-question-circle-fill m-1"></i>${data[i].addressf}
+                        Avilable</i></span>
+                    <div class="row my-3">
+                        <div class="col-sm-5"><b>Classes Offered</b><br>
+                            <small>SSC coaching </small>
                         </div>
+                        <div class="col-2 "><b>One Course-fee</b><br><small>7k-per course</small></div>
+                       
+                        <div class="col-2 mx-3"><b>Exam</b><br>
+                            <small>SSC</small>
+                        </div>
+                        <div class="col-3 "><b>Faculity</b><br> <small>10:1</small></div></div>
                     </div>
-                    <hr>
-                    <div class="row row_cent">
-                        <div class="col-sm-5"> <p style="padding: 4px;">140+ students applied in last month</p>
-                        </div>
-                        <div class="col-sm-7"> <a href="details.html">
-                            <div class="right1">
-                                <button class="btn_right">Compare</button>
-                                <button class="btn_right" style="margin-left:5px">Apply Now</button>
-                            </a>
-                            </div></div>
-                    
-                </div>
+              
+                <hr>
+            </div>
+        
+        <div class="row">
+            <div class="col-sm-5">
+                <p style="padding: 4px;">140+ students applied in last month</p>
+            </div>
+            <div class="col-sm-7"> <a href="more.html">
+                    <div class="">
+                        <button class="btn btn-outline-danger btn_right">Compare</button>
+                        <button class="btn btn-outline-primary btn_right" style="margin-left:5px">Apply Now</button>
+                </a>
             </div>
         </div>
-
-                
-        `
+    </div>   </div>
+            `
             }
             let pElement = document.getElementById("lists");
             pElement.innerHTML = productDiv;
         }
+
+
     </script>
 </body>
 

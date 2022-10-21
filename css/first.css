@@ -8,6 +8,9 @@ body {
     color: #212529;
     text-align: left; 
 }
+.font-1{
+    font-size: 1rem;
+}
 .h5{
     font-weight: 700;
     color: #212529;
@@ -28,6 +31,10 @@ h3, .h3 {
 }
 .nb{
     background-color: rgb(129, 129, 244);
+}
+.nbb{
+    color: rgb(8 35 84);
+
 }
 .banner{
     background-color: #1f5ca2;
@@ -223,3 +230,27 @@ padding: 150px;
     overflow: hidden;
     z-index: 2;
 }
+@media(max-width: 991.98px) {
+    .hide_nav{
+        visibility: visible;
+        clear: both;
+        float: left;
+        /* margin: 10px auto 5px 20px; */
+        width: auto;
+        display: inline-flex;
+        background-color: #f8f9fa;
+     
+     }
+    .show_nav{
+  visibility: hidden;
+    }
+    .nav_h{
+        height: 100px;
+    }
+    .r_center{
+        text-align: center;
+    }
+    .banner{
+        padding: 50px;
+    }
+  }
