@@ -41,7 +41,8 @@ font-family: 'Nunito Sans', sans-serif;
 .h22{
     font-weight: 700;
     letter-spacing: -0.5px;
-    color: rgb(8 35 84);
+    color:  rgb(48 66 99);
+    font-size: 1.75rem;
 }
 .nb{
     color: #1f5ca2;
@@ -66,7 +67,7 @@ font-family: 'Nunito Sans', sans-serif;
 }
     .small-heading {
         color: #303264 !important;
-        font-weight: 600;
+        font-weight: 700;
         font-size: .95rem;
         margin-bottom: 0.2em;
         text-decoration: none;

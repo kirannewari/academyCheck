@@ -11,8 +11,6 @@
     <link href="css/more.css" rel="stylesheet">
     <link href="css/first.css" rel="stylesheet">
     <link href="css/list.css" rel="stylesheet">
-
-
     <link href="css/more_resp.css" rel="stylesheet">
     <link href="css/owl_min.css" rel="stylesheet">
     <link href="css/owl_theme.css" rel="stylesheet">
@@ -31,7 +29,9 @@
         <nav class="navbar navbar-expand-sm navbar-light bg-light px-2 fixed-top mb-5">
             <div class="container-fluid d-flex align-items-center">
                 <a class="navbar-brand text-dark d-flex align-items-center" href="index.html"><img class="logo"
-                        src="./img/AC.jpg"><h3 class="h22 m-1">AcademyCheck</h3></a>
+                        src="./img/AC.jpg">
+                    <h3 class="h22 m-1">AcademyCheck</h3>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -43,7 +43,6 @@
                                     <button class="btn btn-outline-secondary dropdown-toggle btn_w1" type="button"
                                         id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                         <span class="pl-5 "><i class="bi-geo-alt-fill text-danger"></i>Delhi</span>
-
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                         <li><a class="dropdown-item" href="#">Action</a></li>
@@ -54,9 +53,8 @@
                                 <div><input class="form-control mr-2" type="text" placeholder="Search"></div>
                             </a>
                         </li>
-
                     </ul>
-                    <form class="d-flex">
+                    <form class="d-flex hide">
                         <!-- <input class="form-control me-2" type="text" placeholder="Search"> -->
                         <a class="nav-link" href="javascript:void(0)"> <span class="align-items-center px-3 ml-5"><i
                                     class="bi-cart-fill text-big1"></i>
@@ -64,10 +62,13 @@
                             </span></a>
                         <button class="btn btn-primary" type="button">Sign In</button>
                     </form>
+
+
+                    <!-- mobile view -->
                     <div class="hide_nav">
 
                         <div class="container">
-                            <hr>
+                        
                             <div class="collapse navbar-collapse" id="mynavbar">
 
                                 <ul class="navbar-nav me-auto">
@@ -95,6 +96,14 @@
                                 </ul>
 
                             </div>
+                            <form class="d-flex">
+                                <!-- <input class="form-control me-2" type="text" placeholder="Search"> -->
+                                <a class="nav-link" href="javascript:void(0)"> <span class="align-items-center px-3 ml-5"><i
+                                            class="bi-cart-fill text-big1"></i>
+                                        <span class="small-heading align-items-center">Cart</span>
+                                    </span></a>
+                                <button class="btn btn-primary" type="button">Sign In</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -211,7 +220,7 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="card_left">
-                        <h4 class="p-2">Filters</h4>
+                        <h3 class="p-2">Filters</h3>
                         <hr>
                         <p class="p-2">Address</p>
                         <hr>
@@ -233,7 +242,7 @@
                 </div>
             </div>
         </div>
-      
+
         <div class="container border long-card p-3">
             <b>Locality Trends</b><small>See coachings in your locality and students can find easlily</small>
         </div>
@@ -455,10 +464,9 @@
                 productDiv = productDiv + `
                 <div class="card_right my-3 py-3 px-3">
         <div class="row">
-            <div class="col-4 d-flex align-items-center  justify-content-center"> <img class="mx-auto d-block" src="${data[i].logo}" alt="John"
-                    >
+            <div class="col-sm-4 d-flex align-items-center  justify-content-center"><img class="mx-auto d-block" src="${data[i].logo}" alt="John">
             </div>
-            <div class="col-8">
+            <div class="col-sm-8">
                 <div class="row">
         <div class="col-6">
             <h4 class="hh4">${data[i].name}</h4>
@@ -477,16 +485,21 @@
                         Avilable</i></span><br>
                     <span class="text-secondary"><i class="bi-question-circle-fill m-1"></i>${data[i].addressf}
                         Avilable</i></span>
+
                     <div class="row my-3">
-                        <div class="col-sm-5"><b>Classes Offered</b><br>
-                            <small>SSC coaching </small>
+                        <div class="col-sm-3"><small> Classes Offered</small><br>
+                            <b>SSC coaching</b>
                         </div>
-                        <div class="col-2 "><b>One Course-fee</b><br><small>7k-per course</small></div>
+                        <div class="col-sm-3 "><small>One Course-fee </small><br>
+                            <b>7k-per course</b></div>
                        
-                        <div class="col-2 mx-3"><b>Exam</b><br>
-                            <small>SSC</small>
+                        <div class="col-sm-3"><small>Exam</small><br>
+                            <b> SSC </b>
+                            
                         </div>
-                        <div class="col-3 "><b>Faculity</b><br> <small>10:1</small></div></div>
+                        <div class="col-sm-3 "> <small> Faculity</small><br>
+                            <b>10:1</b></div>
+                            </div>
                     </div>
               
                 <hr>

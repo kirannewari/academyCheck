@@ -26,6 +26,11 @@ body {
 h3, .h3 {
     font-size: 1.53125rem;
 }
+.b6{
+    font-size: 1.20rem;
+    font-weight: 600;
+    color:#1f5ca2 !important;
+}
 .heading{
     margin: 0px;
 }
@@ -35,6 +40,10 @@ h3, .h3 {
 .nbb{
     color: rgb(8 35 84);
 
+}
+.hightlight {
+    border-bottom: 2px solid #dc3545;
+    display: inline-block;
 }
 .banner{
     background-color: #1f5ca2;
@@ -79,6 +88,12 @@ padding: 150px;
     background: #fff;
     position: relative;
 }
+.card1:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+
+}
+
 .after{
     /* content: ""; */
     position: absolute;
@@ -98,6 +113,11 @@ padding: 150px;
     color: whitesmoke;
     background-color: rgb(7 92 161);
 }
+.did{
+    font-size: 1.75rem;
+    font-weight: 200;
+    color: rgba(255,255,255,.4);
+}
 .card2{
     
         background: linear-gradient(to right, #dc3545 50%, white 50%);
@@ -115,6 +135,9 @@ padding: 150px;
         -moz-transition: all .4s ease-in-out 0s;
         transition: all .4s ease-in-out 0s;
     
+}
+.card2 small{
+    font-size: 1rem;
 }
 .card2:hover{
     background: #dc3545;
@@ -154,6 +177,10 @@ padding: 150px;
     -webkit-transition: all .4s ease-in-out 0s;
     -moz-transition: all .4s ease-in-out 0s;
     transition: all .4s ease-in-out 0s;
+}
+.long_card span{
+    color: #1f5ca2 !important;
+    font-size: 0.80rem;
 }
 .top_pa{
     padding-top: 60px;
@@ -230,14 +257,30 @@ padding: 150px;
     overflow: hidden;
     z-index: 2;
 }
+.hover_card{
+    background-color: transparent;
+    transition: all .4s ease-in-out 0s;
+  
+}
+.hover_card:hover{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card3{
+    background-color: transparent;
+    transition: all .4s ease-in-out 0s;
+}
+.card3{
+    background-color: transparent;
+}
+.card3:hover{
+    background-color: rgb(105,105,105);
+    color: white !important;
+
+}
 @media(max-width: 991.98px) {
     .hide_nav{
         visibility: visible;
-        clear: both;
-        float: left;
-        /* margin: 10px auto 5px 20px; */
-        width: auto;
-        display: inline-flex;
         background-color: #f8f9fa;
      
      }
@@ -252,5 +295,9 @@ padding: 150px;
     }
     .banner{
         padding: 50px;
+    }
+    .rightt{
+        float: none;
+       text-align: center;
     }
   }
