@@ -44,6 +44,9 @@ font-family: 'Nunito Sans', sans-serif;
     color:  rgb(48 66 99);
     font-size: 1.75rem;
 }
+.h6{
+    font-weight: 600;
+}
 .nb{
     color: #1f5ca2;
 }
@@ -374,3 +377,12 @@ line-height: 0.8rem;
         display: none;
 
       }
+      .rightt2{
+        float:right;
+      }
+      .student{
+        margin-left: 0px;
+       }
+       .flot{
+        float: right;
+       }

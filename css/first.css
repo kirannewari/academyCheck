@@ -260,23 +260,34 @@ padding: 150px;
 .hover_card{
     background-color: transparent;
     transition: all .4s ease-in-out 0s;
-  
+
+}
+.hover_card img{
+    flex: 0 0 auto;
+    /* height: 200px; */
+    width: auto;
+    max-width: 100%;
+    margin-right: 10px;
 }
 .hover_card:hover{
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .card3{
-    background-color: transparent;
+    /* background-color: transparent; */
     transition: all .4s ease-in-out 0s;
-}
-.card3{
-    background-color: transparent;
+    color: #212529;
 }
 .card3:hover{
-    background-color: rgb(105,105,105);
+    background-color: rgb(216, 208, 208);
     color: white !important;
 
+}
+.owl
+{
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    margin: 20px;
 }
 @media(max-width: 991.98px) {
     .hide_nav{

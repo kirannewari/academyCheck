@@ -1,7 +1,16 @@
 @media(max-width: 991.98px) {
-   .hide{
+   .hide1{
       visibility: hidden;
-      margin: -10px;
+   }
+   .h22{
+   color: #303264;
+   font-size: 1.09375rem;
+   font-weight: 700;
+   letter-spacing: -0.5px;
+   }
+   .official_hide{
+      visibility: hidden;
+      margin: -150px;
    }
     .bg_img {
         background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(../img/s2.jpeg);
@@ -13,7 +22,6 @@
        }
     .co_logo{
         height: 100px;
-
         background-color: white;
         margin-right: 1rem;
         border: 1px solid black;
@@ -22,7 +30,6 @@
           width: 100px;
           height: 100px;
           padding: 10px;
-      
          }
          .wiFull{
             width: 100%;
@@ -111,7 +118,7 @@
             color: black !important;
          }
          .color2{
-            background-color: rgb(188, 244, 225);
+            background-color:#f3f7fc;
             padding: 10px;
             margin-top: 20px;
          }
@@ -156,9 +163,18 @@
             width: 64px;
           }
           .hide_pro{
-display: block;
+            display: block;
           }
           .pollBoard{
             width: 100%;
+        }
+        .student{
+         margin-left: 20px;
+        }
+        .cent{
+         text-align: center;
+        }
+        .flot{
+         float: none;
         }
 }

@@ -18,12 +18,15 @@
         href="https://fonts.bunny.net/css?family=montserrat:200,300,400,500,700|nunito-sans:200,200i,300,300i,400,400i,600,700,800,900|open-sans:300,400,500,800"
         rel="stylesheet" />
 </head>
+
 <body>
     <section id="fixed_nav">
         <nav class="navbar navbar-expand-sm navbar-light bg-light px-2 fixed-top mb-5">
-            <div class="container-fluid d-flex align-items-center">
+            <div class="container d-flex align-items-center">
                 <a class="navbar-brand text-dark d-flex align-items-center" href="index.html"><img class="logo"
-                        src="./img/AC.jpg"><h3 class="h22 m-1">AcademyCheck</h3></a>
+                        src="./img/AC.jpg">
+                    <h3 class="h22 m-1">AcademyCheck</h3>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -46,7 +49,7 @@
                             </a>
                         </li>
                     </ul>
-                    <form class="d-flex hide">
+                    <form class="d-flex hide1">
                         <!-- <input class="form-control me-2" type="text" placeholder="Search"> -->
                         <a class="nav-link" href="javascript:void(0)"> <span class="align-items-center px-3 ml-5"><i
                                     class="bi-cart-fill text-big1"></i>
@@ -56,7 +59,7 @@
                     </form>
                     <div class="hide_nav">
                         <div class="container">
-                           
+
                             <div class="collapse navbar-collapse" id="mynavbar">
                                 <ul class="navbar-nav me-auto">
                                     <li class="nav-item">
@@ -84,8 +87,8 @@
                             </div>
                             <form class="d-flex">
                                 <!-- <input class="form-control me-2" type="text" placeholder="Search"> -->
-                                <a class="nav-link" href="javascript:void(0)"> <span class="align-items-center px-3 ml-5"><i
-                                            class="bi-cart-fill text-big1"></i>
+                                <a class="nav-link" href="javascript:void(0)"> <span
+                                        class="align-items-center px-3 ml-5"><i class="bi-cart-fill text-big1"></i>
                                         <span class="small-heading align-items-center">Cart</span>
                                     </span></a>
                                 <button class="btn btn-primary" type="button">Sign In</button>
@@ -97,8 +100,6 @@
         </nav>
 
     </section>
-
-
     <section id="scroll_nav">
 
         <nav class="navbar navbar-expand-sm navbar-light topp">
@@ -173,18 +174,18 @@
         <div class="row hide_btns">
             <div class="py-1 px-3 col-sm-8">
                 <div class="d-flex py-3">
-                <div class="co_logo">
-                    <img src="./img/1i.png">
-                </div>
-                <div class="whitee color1">
-                    <h1 class="h3">
-                        Mother’s Pride High School</h1>
-                    <div class=" color1">
-                        <i class="bi bi-bookmark-plus-fill text-light pl-5 color1"></i> &nbsp; Pocket 2
-                        Institutional area, Sector 17
+                    <div class="co_logo">
+                        <img src="./img/1i.png">
+                    </div>
+                    <div class="whitee color1">
+                        <h1 class="h3">
+                            Mother’s Pride High School</h1>
+                        <div class=" color1">
+                            <i class="bi bi-bookmark-plus-fill text-light pl-5 color1"></i> &nbsp; Pocket 2
+                            Institutional area, Sector 17
+                        </div>
                     </div>
                 </div>
-            </div>
                 <button type="button" class="btn btn-outline-secondary btn-sm">
                     <i class="bi-square"></i> Compare
                 </button><button type="button" class="btn btn-outline-primary mx-3 btn-sm">
@@ -198,9 +199,7 @@
             </div>
         </div>
     </section>
-
     <section id="content">
-
         <div class="main_container">
             <div class="container">
                 <div class="row">
@@ -235,27 +234,29 @@
                             </ul>
                         </nav>
                     </aside>
-
                     <div class="col-12 col-sm-9 col-lg-10">
                         <div class="right_content">
                             <div class="card1 hide1">
                                 <div
                                     class=" mb-3 rounded py-2 px-4 bg-white shadow-sm eligibilityDropdown position-sticky ">
                                     <div class="row d-flex  align-items-center">
-                                        <div class="col-sm-6 bodr">
+                                        <div class="col-sm-6 border">
                                             <span class="d-flex align-items-center">
-                                                <i class="bi-person-fill px-3 " style="font-size: 30px;"></i>
-                                                <span class="border-right">
+                                                <i class="bi-person-fill px-1 " style="font-size: 30px;"></i>
+                                                <span class="border-left">
                                                     <small class="d-block small text-muted">I am Looking admission
                                                         for</small>
                                                     Please Select
 
                                                 </span>
-                                                <i class="bi-chevron-compact-down px-3" style="font-size: 20px;"></i>
+                                                <div class="rightt"> <i
+                                                        class="bi-chevron-compact-down px-3"
+                                                        style="font-size: 20px;margin-left: 260px;"></i></div>
+
 
                                             </span>
                                         </div>
-                                        <div class="col-sm-6 col-md-6 col-lg-6 m1 d-flex hide1 rightt">
+                                        <div class="col-sm-6 m1 d-flex hide1 justify-content-end">
                                             <button type="button" class="btn btn-outline-secondary btn-sm">
                                                 <i class="bi-square"></i> Compare
                                             </button><button type="button" class="btn btn-outline-primary mx-3 btn-sm">
@@ -267,49 +268,46 @@
                                     </div>
 
 
-                                    
+
                                 </div>
                             </div>
                             <!-- card1 responsive -->
                             <div
-                                    class=" mb-3 rounded py-2 px-4 bg-white shadow-sm eligibilityDropdown position-sticky bodr hide_pro">
-                                    <span class="d-flex align-items-center">
-                                        <i class="bi-person-fill px-3" style="font-size: 30px;"></i>
-                                        <span class="border-right">
-                                            <small class="d-block small text-muted">I am Looking admission
-                                                for</small>
-                                            Please Select
-        
-                                        </span>
-                                        <i class="bi-chevron-compact-down px-3" style="font-size: 20px;"></i>
+                                class="mb-3 rounded py-2 px-2 bg-white shadow-sm eligibilityDropdown position-sticky border hide_pro">
+                                <span class="d-flex align-items-center">
+                                    <i class="bi-person-fill px-3" style="font-size: 30px;"></i>
+                                    <span class="border-right">
+                                        <small class="d-block small text-muted">I am Looking admission
+                                            for</small>
+                                        Please Select2
+
                                     </span>
-                                </div>
-                           
-                            <div class="card2">
-                                <div class="w-100 mb-3 rounded  bg-white shadow-sm eligibilityDropdown position-sticky">
-                                    <div class="px-4 py-2 d-flex justify-content-between align-items-center">
-                                        <div class="d-flex ">
+                                    <i class="bi-chevron-compact-down text-muted" style="font-size: 20px;margin-left: 70px;"></i>
+                                </span>
+                            </div>
+                            <!-- card2-->
+                            <div class="card2 admissionForm">
+                                <div class="w-100 mb-3 rounded  bg-white shadow-sm">
+                                    <div class="px-3 py-2 d-flex align-items-center ">
+                                      
                                             <span class="d-flex align-items-center">
                                                 <h2 class="h22">Online Admission Form</h2>
-                                                <span class="m-3"> <i class="bi bi-bookmark-plus-fill text-primary"></i>
-                                                    <small class="h6 font-weight-semibold ml-1">
+                                                <span class="m-1 px-3"> <i class="bi bi-bookmark-plus-fill text-primary h7"></i>
+                                                    <small class="h7 font-weight-bold">
                                                         How AC works
                                                     </small></span>
-
                                             </span>
-                                        </div>
-                                        <div class="right justify-content-center align-items-center py-3 px-3">
+                                       
+                                        <div class="py-3 px-3 official_hide rightt">
                                             <div class="d-flex">
                                                 <span>
                                                     <img src="./img/1i.png" style="width: 40px; height:40px">
                                                 </span>
-                                                <span class="mr-3">
-                                                    <span class="text-small text-muted d-block">Official</span>
+                                                <span class="">
+                                                    <span class="text-small text-muted">Official</span><br>
                                                     <span class="text-big h9">Application Partner</span>
-
                                                 </span>
                                             </div>
-
                                         </div>
                                     </div>
 
@@ -359,57 +357,53 @@
 
                             </div>
                             <div class="card3">
-                                <div class="w-100 mb-3 rounded bg-white shadow-sm eligibilityDropdown position-sticky">
-                                    <div class="px-4 py-2 d-flex justify-content-between align-items-center">
-                                        <div class="d-flex ">
+                                <div class="w-100 mb-3 rounded bg-white shadow-sm">
+                                    <div class="px-3 py-2 d-flex justify-content-between align-items-center">
+                                        <div class="">
                                             <h2 class="h22">Key Coaching Stats
                                                 <h2>
-
                                         </div>
-                                        <div class="right py-3 px-3">
+                                        <div class="py-3">
                                             <button type="button" class="btn btn-outline-primary btn-sm">
                                                 <i class="bi bi-bookmark-plus-fill text-primary"></i> download broucher
                                             </button>
                                         </div>
                                     </div>
-
                                     <div class="row px-4">
-                                        <div class="col-sm-4">
+                                        <div class="col-4">
                                             <span>
                                                 <span class="small text-muted d-block">Ownership</span>
                                                 <span></span>
                                                 <p class="text-big1">Private</p>
                                             </span>
                                         </div>
-                                        <div class="col-sm-4"> <span>
+                                        <div class="col-4"> <span>
+                                                <span class="small text-muted d-block">Ownership</span>
+                                                <span></span>
+                                                <p class="text-big1">Private</p>
+                                            </span></div>
+                                        <div class="col-4"> <span>
                                                 <span class="small text-muted d-block">Ownership</span>
                                                 <span></span>
                                                 <p class="text-big1">Private</p>
 
                                             </span></div>
-                                        <div class="col-sm-4"> <span>
-                                                <span class="small text-muted d-block">Ownership</span>
-                                                <span></span>
-                                                <p class="text-big1">Private</p>
-
-                                            </span></div>
-
                                     </div>
                                     <div class="row px-4">
-                                        <div class="col-sm-4">
+                                        <div class="col-4">
                                             <span>
                                                 <span class="small text-muted d-block">Ownership</span>
                                                 <span></span>
                                                 <p class="text-big1">Private</p>
                                             </span>
                                         </div>
-                                        <div class="col-sm-4"> <span>
+                                        <div class="col-4"> <span>
                                                 <span class="small text-muted d-block">Ownership</span>
                                                 <span></span>
                                                 <p class="text-big1">Private</p>
 
                                             </span></div>
-                                        <div class="col-sm-4"> <span>
+                                        <div class="col-4"> <span>
                                                 <span class="small text-muted d-block">Ownership</span>
                                                 <span></span>
                                                 <p class="text-big1">Private</p>
@@ -437,12 +431,12 @@
                                                         Not Sure
                                                     </button>
                                                 </div>
-                                                <p class="small text-muted text-center py-1 line_h3"> Submit your response to
+                                                <p class="small text-muted text-center py-1 line_h3"> Submit your
+                                                    response to
                                                     view opinions of other parents </p>
 
                                             </div>
-                                            <div class="col-sm-4 d-flex"><img class="pollImg"
-                                                    src="./img/1i.png">
+                                            <div class="col-sm-4 d-flex"><img class="pollImg" src="./img/1i.png">
                                                 <div class=" text-center">
                                                     <span
                                                         class="h5 d-block mt-5 bodr2 text-primary font-weight-semibold">13</span>
@@ -597,7 +591,8 @@
                                                 <div class="text-center py-3 ">
                                                     <button type="button" class="btn btn-outline-primary">
                                                         Bookmark
-                                                    </button> <button type="button" class="btn btn-outline-primary my-1">
+                                                    </button> <button type="button"
+                                                        class="btn btn-outline-primary my-1">
                                                         Bookmark
                                                     </button> <button type="button" class="btn btn-outline-primary">
                                                         Bookmark
@@ -759,13 +754,13 @@
 
                                     </div>
                                     <hr>
-                                    <span class=" px-4 d-block">
-                                        <span>
+                                    <span class=" px-2 row">
+                                        <div class="col-sm-8 d-flex align-items-center px-3"><span>
                                             <i class="bi-caret-right-fill text-success"></i><b>Septmber</b> admissions
                                             in Delhi for
-                                        </span> <span class="dropdown">
+                                        </span> <span class="dropdown px-1">
                                             <button type="button"
-                                                class="btn dropdown-toggle border-top-0 border-left-0 border-right-0 bg-white rounded-0 px-0 pt-2 pb-1 border-bottom"
+                                                class="btn dropdown-toggle border-top-0 border-left-0 border-right-0 bg-white rounded-0 px-0 pt-2 pb-1 border-bottom btn-sm"
                                                 data-bs-toggle="dropdown">
                                                 <span>2022-2023</span>
                                             </button>
@@ -774,10 +769,8 @@
                                                 <li><a class="dropdown-item" href="#">Link 2</a></li>
                                                 <li><a class="dropdown-item" href="#">Link 3</a></li>
                                             </ul>
-
-                                        </span>
-
-                                        <span class="right text-success px-1 d-flex align-items-center">
+                                        </span></div>
+                                        <span class="col-sm-4 text-success px-3 justify-content-end rightt">
                                             <span class="bodr3 mx-1">
                                                 9
                                             </span> <span class="">
@@ -803,7 +796,8 @@
                                                 <div class="text-center py-3">
                                                     <button type="button" class="btn btn-outline-primary">
                                                         Bookmark
-                                                    </button> <button type="button" class="btn btn-outline-primary my-1">
+                                                    </button> <button type="button"
+                                                        class="btn btn-outline-primary my-1">
                                                         Bookmark
                                                     </button> <button type="button" class="btn btn-outline-primary">
                                                         Bookmark
@@ -834,12 +828,12 @@
                                 </div>
                             </div>
                             <div class="card7">
-                                <div class="w-100  mb-3 rounded bg-white shadow-sm eligibilityDropdown position-sticky">
-                                    <div class="px-4 py-3 d-flex justify-content-between align-items-center">
-                                        <h2 class="h22">Admission Criteria & Eligiblity </h2>
-                                        <span class="hide1">
-                                            <div class="dropdown right ">
-                                                <button class="btn btn-outline-secondary dropdown-toggle btn-sm"
+                                <div class="w-100  mb-3 rounded bg-white shadow-sm">
+                                    <div class="row px-3 py-3 d-flex align-items-center">
+                                        <h2 class="col-sm-8 h22">Admission Criteria & Eligiblity</h2>
+                                       
+                                            <div class="dropdown col-sm-2 my-1 flot">
+                                                <button class="btn btn-outline-secondary dropdown-toggle btn-sm flot"
                                                     type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
                                                     aria-expanded="false">
                                                     <small class="text-dark">2023-2024</small>
@@ -850,7 +844,7 @@
                                                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                                                 </ul>
                                             </div>
-                                            <div class="dropdown right px-3">
+                                            <div class="dropdown px-3 col-sm-2">
                                                 <button class="btn btn-outline-secondary dropdown-toggle btn-sm ml-3"
                                                     type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
                                                     aria-expanded="false">
@@ -862,36 +856,7 @@
                                                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                                                 </ul>
                                             </div>
-                                        </span>
-
-                                        <!-- responsive butoon  -->
-                                        <span class="hide_btns2">
-                                            <div class="dropdown right ">
-                                                <button class="btn btn-outline-secondary dropdown-toggle btn-sm"
-                                                    type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
-                                                    aria-expanded="false">
-                                                    <small class="text-dark">2023-2024</small>
-                                                </button>
-                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="dropdown right py-3">
-                                                <button class="btn btn-outline-secondary dropdown-toggle btn-sm ml-3"
-                                                    type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
-                                                    aria-expanded="false">
-                                                    <small class="text-dark"> Play Group</small>
-                                                </button>
-                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                                </ul>
-                                            </div>
-                                        </span>
-
+                                                                
                                     </div>
                                     <div class="row px-4 py-3 mb-0 p-0">
                                         <div class="col-sm-4">
@@ -987,12 +952,12 @@
                                                 <div class="m-2"><img src="./img/1i.png" style="height: 80px;">
                                                 </div>
                                                 <div class="ml-5">
-                                                    <h2 class="h4">Check Age Eligibility for your Child</h2>
+                                                    <h5 class="h6">Check Age Eligibility for your Child</h5>
                                                     <p class="font-weight-normal">Please add the child details and we
                                                         will let you know about your child eligibility</p>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-3 align-items-center"><button
+                                            <div class="col-sm-3 align-items-center student"><button
                                                     class="btn btn-info text-light">+Add
                                                     Student Details</button>
                                             </div>
@@ -1011,7 +976,8 @@
                                                 <div class="text-center py-3">
                                                     <button type="button" class="btn btn-outline-primary">
                                                         Bookmark
-                                                    </button> <button type="button" class="btn btn-outline-primary my-1">
+                                                    </button> <button type="button"
+                                                        class="btn btn-outline-primary my-1">
                                                         Bookmark
                                                     </button> <button type="button" class="btn btn-outline-primary">
                                                         Bookmark
@@ -1336,78 +1302,6 @@
                                         <img src="./img/carousel-1.jpg" style="width: 200px; height: 200px;">
                                     </div> -->
 
-
-                                    <div class="owl-carousel owl-3-slider">
-
-                                        <div class="item">
-                                            <a class="media-thumb" href="./img/carousel-1.jpg" data-fancybox="gallery">
-                                                <div class="media-text">
-                                                    <h3>Pragser Wildsee</h3>
-                                                    <span class="location">Italy</span>
-                                                </div>
-                                                <img src="./img/carousel-1.jpg"
-                                                style="width: 200px; height: 200px;" alt="Image" class="img-fluid">
-                                            </a> 
-                                        </div>
-                        
-                                        <div class="item">
-                                            <a class="media-thumb" href="./img/carousel-1.jpg" data-fancybox="gallery">
-                                                <div class="media-text">
-                                                    <h3>Oia</h3>
-                                                    <span class="location">Greece</span>
-                                                </div>
-                                                <img src="./img/carousel-1.jpg"
-                                                style="width: 200px; height: 200px;" alt="Image" class="img-fluid">
-                                            </a> 
-                                        </div>
-                        
-                                        <div class="item">
-                                            <a class="media-thumb" href="./img/carousel-1.jpg" data-fancybox="gallery">
-                                                <div class="media-text">
-                                                    <h3>Perhentian Islands</h3>
-                                                    <span class="location">Malaysia</span>
-                                                </div>
-                                                <img src="./img/carousel-1.jpg"
-                                                style="width: 200px; height: 200px;" alt="Image" class="img-fluid">
-                                            </a> 
-                                        </div>
-                        
-                        
-                                        <div class="item">
-                                            <a class="media-thumb" href="./img/carousel-1.jpg" data-fancybox="gallery">
-                                                <div class="media-text">
-                                                    <h3>Rialto Bridge</h3>
-                                                    <span class="location">Italy</span>
-                                                </div>
-                                                <img src="./img/carousel-1.jpg"
-                                                style="width: 200px; height: 200px;" alt="Image" class="img-fluid">
-                                            </a> 
-                                        </div>
-                        
-                                        <div class="item">
-                                            <a class="media-thumb" href="./img/carousel-1.jpg" data-fancybox="gallery">
-                                                <div class="media-text">
-                                                    <h3>San Francisco, United States</h3>
-                                                    <span class="location">United States</span>
-                                                </div>
-                                                <img src="./img/carousel-1.jpg"
-                                                style="width: 200px; height: 200px;" alt="Image" class="img-fluid">
-                                            </a> 
-                                        </div>
-                        
-                                        <div class="item">
-                                            <a class="media-thumb" href="./img/carousel-1.jpg" data-fancybox="gallery">
-                                                <div class="media-text">
-                                                    <h3>Lake Thun</h3>
-                                                    <span class="location">Switzerland</span>
-                                                </div>
-                                                <img src="./img/carousel-1.jpg"
-                                                style="width: 200px; height: 200px;" alt="Image" class="img-fluid">
-                                            </a> 
-                                        </div>
-                        
-                                    </div>
-
                                 </div>
 
 
@@ -1440,7 +1334,7 @@
 
                                             </ul>
                                             <div style="margin-left: 25px;"> <button
-                                                    class="btn btn-success btn-sm pl-1"><i class="bi-telephone"></i>Call
+                                                    class="btn btn-success btn-sm"><i class="bi-telephone m-1"></i>Call
                                                     Us</button>
                                             </div>
 
@@ -1451,22 +1345,24 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div class="card14">
                                 <div
-                                    class="w-100 mb-3  d-flex justify-content-between align-items-center rounded py-5 px-4 bg-white shadow-sm eligibilityDropdown position-sticky">
-                                    <div class="d-flex align-items-center">
-                                        <img src="./img/1i.png" style="width: 100px; height:100px">
-                                        <div>
-                                            <h4 class="">Need Help?</h4>
-                                            <div class="text-big">Have any questions about this school while applying
-                                                through UniApply?</div>
-                                            <div class="small">Let us know </div>
+                                    class="w-100 mb-3  d-flex  align-items-center rounded py-5 px-4 bg-white shadow-sm eligibilityDropdown position-sticky">
+                                    <div class="row d-flex align-items-center cent">
+                                        <div class=" col-sm-4">
+                                            <img src="./img/1i.png" style="width: 100px; height:100px;" class="flot">
                                         </div>
-
-                                    </div>
-                                    <div class="right"><button class="btn btn-info text-light"><i
-                                                class="bi-headset"></i>Need Help</button></div>
+                                            <span class="col-sm-4 py-3">
+                                                <h4 class="">Need Help?</h4>
+                                                <div class="text-big">Have any questions about this school while applying
+                                                    through UniApply?</div>
+                                                <div class="small">Let us know </div>
+                                                </span>
+    
+                                 
+  
+                                    <div class="col-sm-4"><button class="btn btn-info text-light"><i
+                                                class="bi-headset m-1"></i>Need Help</button></div>   </div>
                                 </div>
                             </div>
                         </div>
@@ -1474,7 +1370,6 @@
                 </div>
             </div>
     </section>
-
     <section id="similer" class="border-bottom">
         <div class="container py-5">
             <h2 class="h22 py-2">Nearby Coachings</h2>

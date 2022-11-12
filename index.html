@@ -12,6 +12,7 @@
     <link href="css/first.css" rel="stylesheet">
     <link href="css/more_resp.css" rel="stylesheet">
     <link href="css/owl.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
@@ -23,7 +24,7 @@
 
 <body>
     <section id="fixed_nav">
-        <nav class="navbar navbar-expand-sm navbar-light bg-light px-1 fixed-top mb-5 nav_h py-3">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light px-1 fixed-top mb-5 py-3">
             <div class="container-fluid ">
                 <a class="navbar-brand text-dark d-flex align-items-center" href="index.html"><img class="logo"
                         src="./img/AC.jpg">
@@ -32,28 +33,28 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-  <!-- mobile view  -->
+                <!-- mobile view  -->
                 <div class="collapse navbar-collapse hide_nav" id="mynavbar">
 
-                  
-                  
+
+
                     <div class="collapse navbar-collapse m-3" id="mynavbar">
                         <div class="dropdown">
                             <button type="button"
                                 class="btn dropdown-toggle border-top-0 border-left-0 border-right-0 rounded-0 px-3 border-bottom"
                                 data-bs-toggle="dropdown">
-                                <span class="m-3 h22">City-name</span>
+                                <span class="m-3 font-weight-bold">City-name</span>
                             </button>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Link 1</a></li>
                                 <li><a class="dropdown-item" href="#">Link 2</a></li>
                                 <li><a class="dropdown-item" href="#">Link 3</a></li>
                             </ul>
-    
+
                         </div>
                         <ul class="navbar-nav me-auto m-3">
                             <li class="nav-item">
-                                <a class="nav-link small-heading" href="list.html">Exploreee Schools</a>
+                                <a class="nav-link small-heading" href="list.html">Explore Coachings</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link small-heading" href="#">Discover Localities</a>
@@ -74,20 +75,21 @@
                                 <a class="nav-link small-heading" href="#">My Dashboard</a>
                             </li>
                         </ul>
-                        <div class="d-flex align-items-center"> <a class="nav-link" href="javascript:void(0)"> <span class="align-items-center px-3 ml-5"><i
-                            class="bi-cart-fill text-big1"></i>
-                        <span class="small-heading align-items-center">Cart</span>
-                    </span></a>
-                <span> <button class="btn btn-primary my-3" type="button">Sign In</button>
-                </span></div>
-                       
+                        <div class="d-flex align-items-center"> <a class="nav-link" href="javascript:void(0)"> <span
+                                    class="align-items-center px-3 ml-5"><i class="bi-cart-fill text-big1"></i>
+                                    <span class="small-heading align-items-center">Cart</span>
+                                </span></a>
+                            <span> <button class="btn btn-outline-primary my-3" type="button">Sign In</button>
+                            </span>
+                        </div>
+
 
                     </div>
 
                 </div>
 
 
-                
+
             </div>
         </nav>
 
@@ -103,9 +105,10 @@
                 </form> -->
                 <div class="d-flex rounded my-2 ">
                     <input class="form-control" type="search" placeholder="Search coaching..." aria-label="Search">
-                    <a href="list.html"> <button class="btn btn-danger" type="submit">Search</button></a>
+                    <a href="list.html"> <button class="btn btn-danger" type="submit"> <span><i
+                                    class="bi-arrow-right-circle-fill"></i></span>Search</button></a>
                 </div>
-                <div class=" rightt">
+                <div class="rightt">
                     <p style="color: white;" class="font-weight-semibold text-light d-inline-block mb-auto mt-1"><i
                             class="bi-lightbulb mx-1" style="color: yellow;"></i>How
                         AcademyCheck works</p>
@@ -120,14 +123,24 @@
 
     <section id="main-layout" class="">
         <section id="looking" class="container-fluid sky text-center">
-            <div class="heading text-center pt-5 pb-5 container">
+            <div class="heading text-center pt-3 pb-1 container">
                 <h2 class=" h22">What are you looking for?</h2>
                 <p class="text-muted font-1">AcademyCheck brings you the best of schools and everything about
                     it</p>
             </div>
             <div class="imgSlide container">
-                <div class="row my-3">
+                <div class="d-flex owl">
 
+                    <div class="col-sm-3">
+                        <div class="hover_card py-3 px-1"><img class="py-3" src="./img/1i.png"><br>
+                            <h5 class="h5 py-3 text-center">Day Timing</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="hover_card py-3 px-1"><img class="py-3" src="./img/1i.png"><br>
+                            <h5 class="h5 py-3 text-center">Day Timing</h5>
+                        </div>
+                    </div>
                     <div class="col-sm-3">
                         <div class="hover_card py-3 px-1"><img class="py-3" src="./img/1i.png"><br>
                             <h5 class="h5 py-3 text-center">Day Timing</h5>
@@ -159,7 +172,7 @@
         </section>
         <section id="popular" class="container my-5 ">
             <div class="row">
-                <div class="col-sm-3"><img class="rightt" src="./img/1i.png"></div>
+                <div class="col-sm-3 py-3"><img class="rightt" src="./img/1i.png"></div>
                 <div class="col-sm-9">
                     <div class="pb-5">
                         <h2 class="h22 ">Popular areas in <span class="hightlight">Jaipur</span></h2>
@@ -420,14 +433,14 @@
                 <div class="col-sm-4 py-2 ">
                     <div class="border">
                         <div class="d-flex">
-                            <div class=" bg-white text-center"><br>
+                            <div class="bg-white text-center"><br>
                                 <img src="./img/1i.png" style="width: 50px; height:50px"><br>
                                 <b>St. coaching</b><br>
                                 <small>vivek vihar metor station</small>
                             </div>
                             <div class="vs-line-outer position-relative"><span class="vs">Vs
                                 </span></div>
-                            <div class=" bg-gray text-center p-3">
+                            <div class=" bg-gray text-center pt-3">
                                 <img src="./img/1i.png" style="width: 50px; height:50px"><br>
                                 <b>CLC coaching</b><br>
                                 <small>vivek vihar metor station</small>
@@ -475,7 +488,7 @@
         </section>
         <section id="viwed" class="my-5 sky">
             <div class="heading text-center pt-5 pb-3">
-                <h2 class="h22">Most viewed cochings in Jaipur</h2>
+                <h2 class="h22">Most viewed coachings in Jaipur</h2>
             </div>
             <div class="container py-5 d-flex justify-content-center">
 
@@ -543,59 +556,33 @@
         <div class=" nb1">
             <div class="row container p-5">
                 <div class="col-sm-2 text-light">
-                    <div class="">
+                    <div class="text-center">
                         <img src="./img/2i.png" class="light">
                         <h4>For Coachings</h4>
                         <b class="border-bottom text-light">Manage Coachings</b>
                         <hr>
                     </div>
-
-
                 </div>
-                <div class="col-sm-2">
-
+                <div class="col-sm-2 ml-5">
                     <b class="text-light">Cities</b>
                 </div>
                 <div class="col-sm-2">
                     <b class="text-light">Explore Coachings</b>
-
                 </div>
                 <div class="col-sm-2">
                     <b class="text-light">Admission Tracker</b>
-
                 </div>
                 <div class="col-sm-2">
                     <b class="text-light">For Students</b>
-
                 </div>
                 <div class="col-sm-2">
                     <b class=" text-light">Centers</b>
-
                 </div>
             </div>
         </div>
 
     </section>
-
-    <div class="slider owl-carousel">
-
-        <div class="card"><img src="./img/1i.png">
-            <h5 class="h5 py-3">Day Timing</h5>
-        </div>
-        <div class="card"><img src="./img/1i.png">
-            <h5 class="h5 py-3">Day Timing</h5>
-        </div>
-        <div class="card"><img src="./img/1i.png">
-            <h5 class="h5 py-3">Day Timing</h5>
-        </div>
-        <div class="card"><img src="./img/1i.png">
-            <h5 class="h5 py-3">Day Timing</h5>
-        </div>
-        <div class="card"><img src="./img/1i.png">
-            <h5 class="h5 py-3">Day Timing</h5>
-        </div>
-    </div>
-
+  
 </body>
 <script>
     $(".slider").owlCarousel({
@@ -608,6 +595,22 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script>$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})</script>
 
 
 </html>
