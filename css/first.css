@@ -148,7 +148,6 @@ padding: 150px;
     font-size: 2.2rem;
 }
 .round_card{
-
     box-shadow: 0 0 15px rgb(0 0 0 / 20%);
     margin: 0 auto;
     position: relative;
@@ -214,7 +213,7 @@ padding: 150px;
     z-index: 2;
 
 }
-.bg-white {
+.bg-white1 {
     width: 50%;
     background-color: rgb(241, 246, 247) !important;
 }
@@ -292,7 +291,7 @@ padding: 150px;
 @media(max-width: 991.98px) {
     .hide_nav{
         visibility: visible;
-        background-color: #f8f9fa;
+        /* background-color: #f8f9fa; */
      
      }
     .show_nav1{

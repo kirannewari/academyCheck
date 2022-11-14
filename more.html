@@ -21,42 +21,44 @@
 
 <body>
     <section id="fixed_nav">
-        <nav class="navbar navbar-expand-sm navbar-light bg-light px-2 fixed-top">
+        <nav class="navbar navbar-expand-sm bg-white shadow-sm px-2 fixed-top py-4">
             <div class="container d-flex align-items-center">
-                <a class="navbar-brand text-dark d-flex align-items-center" href="index.html"><img class="logo"
+                <a class="navbar-brand text-dark d-flex align-items-center" href="index.html" href="javascript:void(0)"><img class="logo"
                         src="./img/AC.jpg">
                     <h3 class="h22 m-1">AcademyCheck</h3>
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon" ><i class="bi-border-width" style="color: black;"></i></span>
+                  </button>
                 <div class="collapse navbar-collapse " id="mynavbar">
-                    <ul class="navbar-nav me-auto d-flex align-items-center">
-                        <li class="nav-item  d-flex align-items-center">
-                            <a class="nav-link">
-                                <div class="dropdown">
-                                    <button class="btn btn-outline-secondary dropdown-toggle btn_w1" type="button"
-                                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <span class="pl-5 "><i class="bi-geo-alt-fill text-danger"></i>Delhi</span>
-                                    </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </div>
-                                <div><input class="form-control mr-2" type="text" placeholder="Search"></div>
-                            </a>
-                        </li>
-                    </ul>
-                    <form class="d-flex hide1">
-                        <!-- <input class="form-control me-2" type="text" placeholder="Search"> -->
-                        <a class="nav-link" href="javascript:void(0)"> <span class="align-items-center px-3 ml-5"><i
-                                    class="bi-cart-fill text-big1"></i>
-                                <span class="small-heading align-items-center">Cart</span>
-                            </span></a>
-                        <button class="btn btn-primary" type="button">Sign In</button>
-                    </form>
+                    <div class="headerSearch d-flex w-100">
+                        <div class="w-25">
+                            <div class="dropdown">
+                                <button class="btn btn-outline-secondary dropdown-toggle" type="button"
+                                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Jaipur
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-50 main-search  ">
+                            <input class="form-control maSe" type="search" placeholder="Search" aria-label="Search">
+
+                        </div>
+                        <form class="w-25 d-flex hide1">
+                            <!-- <input class="form-control me-2" type="text" placeholder="Search"> -->
+                            <a class="nav-link" href="javascript:void(0)"> <span class="align-items-center px-3 ml-5"><i
+                                        class="bi-cart-fill text-big1"></i>
+                                    <span class="small-heading align-items-center">Cart</span>
+                                </span></a>
+                            <button class="btn btn-primary" type="button">Sign In</button>
+                        </form>
+                    </div>
+                   
                     <div class="hide_nav">
                         <div class="container">
 
@@ -85,13 +87,13 @@
                                     </li>
                                 </ul>
                             </div>
-                            <form class="d-flex">
+                            <form class=""> <div>  
                                 <!-- <input class="form-control me-2" type="text" placeholder="Search"> -->
-                                <a class="nav-link" href="javascript:void(0)"> <span
-                                        class="align-items-center px-3 ml-5"><i class="bi-cart-fill text-big1"></i>
+                               <span
+                                        class="align-items-center px-3 ml-5">  <a class="nav-link" href="javascript:void(0)"></a><i class="bi-cart-fill text-big1"></i>
                                         <span class="small-heading align-items-center">Cart</span>
                                     </span></a>
-                                <button class="btn btn-primary" type="button">Sign In</button>
+                                <button class="btn btn-primary" type="button">Sign Inn</button></div>
                             </form>
                         </div>
                     </div>
@@ -102,7 +104,7 @@
     </section>
     <section id="scroll_nav">
 
-        <nav class="navbar navbar-expand-sm navbar-light topp">
+        <nav class="navbar navbar-expand-sm navbar-light topp pt-4">
             <div class="container-fluid">
 
                 <!-- <button class="navbar-toggler fix_btn" type="button" data-bs-toggle="collapse"
@@ -142,7 +144,7 @@
     <section id="fixed_bg">
         <div class="bg_img d-flex align-items-center">
             <div class="container hide1">
-                <div class="top2"><small>Home > Delhi > Mother's Pride School, Dwarka</small></div>
+                <div class="top2 my-2"><small>Home > Delhi > Mother's Pride School, Dwarka</small></div>
                 <div class="row top_m1">
                     <div class="col-sm-8 col-md-8">
                         <div class="d-flex">
@@ -238,7 +240,7 @@
                         <div class="right_content">
                             <div class="card1 hide1">
                                 <div
-                                    class=" mb-3 rounded py-2 px-4 bg-white shadow-sm eligibilityDropdown position-sticky ">
+                                    class=" mb-3 rounded py-2 px-4 mt-5 pt-3 bg-white shadow-sm eligibilityDropdown position-sticky ">
                                     <div class="row d-flex  align-items-center">
                                         <div class="col-sm-6 border">
                                             <span class="d-flex align-items-center">
@@ -249,8 +251,7 @@
                                                     Please Select
 
                                                 </span>
-                                                <div class="rightt"> <i
-                                                        class="bi-chevron-compact-down px-3"
+                                                <div class="rightt"> <i class="bi-chevron-compact-down px-3"
                                                         style="font-size: 20px;margin-left: 260px;"></i></div>
 
 
@@ -282,23 +283,25 @@
                                         Please Select2
 
                                     </span>
-                                    <i class="bi-chevron-compact-down text-muted" style="font-size: 20px;margin-left: 70px;"></i>
+                                    <i class="bi-chevron-compact-down text-muted"
+                                        style="font-size: 20px;margin-left: 70px;"></i>
                                 </span>
                             </div>
                             <!-- card2-->
                             <div class="card2 admissionForm">
                                 <div class="w-100 mb-3 rounded  bg-white shadow-sm">
-                                    <div class="px-3 py-2 d-flex align-items-center ">
-                                      
-                                            <span class="d-flex align-items-center">
-                                                <h2 class="h22">Online Admission Form</h2>
-                                                <span class="m-1 px-3"> <i class="bi bi-bookmark-plus-fill text-primary h7"></i>
-                                                    <small class="h7 font-weight-bold">
-                                                        How AC works
-                                                    </small></span>
-                                            </span>
-                                       
-                                        <div class="py-3 px-3 official_hide rightt">
+                                    <div class=" d-flex align-items-center px-3 mt-5 pt-3 ">
+
+                                        <span class="d-flex align-items-center">
+                                            <h2 class="h22">Online Admission Form</h2>
+                                            <span class="m-1 px-3"> <i
+                                                    class="bi bi-bookmark-plus-fill text-primary h7"></i>
+                                                <small class="h7 ">
+                                                    How AC works
+                                                </small></span>
+                                        </span>
+
+                                        <div class="py-3 px-3 official_hide official">
                                             <div class="d-flex">
                                                 <span>
                                                     <img src="./img/1i.png" style="width: 40px; height:40px">
@@ -310,18 +313,17 @@
                                             </div>
                                         </div>
                                     </div>
-
                                     <table class="table table-hover">
-                                        <thead class="table-success">
-                                            <tr">
+                                        <thead class="table-success my-5">
+                                            <tr class="my-5">
                                                 <th>Class</th>
                                                 <th>Session</th>
                                                 <th>Application Date(s)</th>
                                                 <th>Application Fees</th>
                                                 <th>Action</th>
-                                                </tr>
+                                            </tr>
                                         </thead>
-                                        <tbody>
+                                        <tbody class="mx-5">
                                             <tr>
                                                 <td>John</td>
                                                 <td>Doe</td>
@@ -330,7 +332,6 @@
                                                 <td> <button type="button" class="btn btn-outline-danger px-3 btn-sm">
                                                         Add to apply
                                                     </button></td>
-
                                             </tr>
                                             <tr>
                                                 <td>Mary</td>
@@ -349,23 +350,21 @@
                                                 <td><button type="button" class="btn btn-outline-danger px-3 btn-sm">
                                                         Add to apply
                                                     </button>
-
-
                                         </tbody>
                                     </table>
                                 </div>
 
                             </div>
-                            <div class="card3">
+                            <div class="card3 key">
                                 <div class="w-100 mb-3 rounded bg-white shadow-sm">
-                                    <div class="px-3 py-2 d-flex justify-content-between align-items-center">
+                                    <div class="px-4 mt-5 pt-3 d-flex justify-content-between align-items-center">
                                         <div class="">
                                             <h2 class="h22">Key Coaching Stats
                                                 <h2>
                                         </div>
                                         <div class="py-3">
                                             <button type="button" class="btn btn-outline-primary btn-sm">
-                                                <i class="bi bi-bookmark-plus-fill text-primary"></i> download broucher
+                                                <i class="bi bi-bookmark-plus-fill"></i> download broucher
                                             </button>
                                         </div>
                                     </div>
@@ -418,7 +417,8 @@
                                         </h6>
                                         <div class="row bg-white  mx-1">
                                             <div class="col-sm-8 pollBoard py-3 line_h1">
-                                                <h5 class="h5 text-center"> Is this school among your top 3 preferncees?
+                                                <h5 class="h5 text-center font-weight-bold"> Is this school among your
+                                                    top 3 preferncees?
                                                 </h5>
                                                 <div class="text-center py-3">
                                                     <button type="button" class="btn btn-outline-secondary btn-sm">
@@ -431,7 +431,7 @@
                                                         Not Sure
                                                     </button>
                                                 </div>
-                                                <p class="small text-muted text-center py-1 line_h3"> Submit your
+                                                <p class=" text-muted text-center py-1 line_h3"> Submit your
                                                     response to
                                                     view opinions of other parents </p>
 
@@ -449,22 +449,22 @@
 
                                         </div>
                                         <div class="d-flex justify-content-end py-3 pl-5">
-                                            <span class="pl-3 text-primary font-weight-semibold">View All<a> <i
+                                            <span class="pl-3 primary font-weight-semibold view">View All<a> <i
                                                         class="bi-arrow-right-circle-fill"></i>
                                                 </a></span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="card4">
+                            <div class="card4 feeStrure">
                                 <div class="w-100  mb-3 rounded bg-white shadow-sm eligibilityDropdown position-sticky">
-                                    <div class="px-4 py-3 d-flex justify-content-between align-items-center">
+                                    <div class="px-4 mt-5 pt-3 d-flex justify-content-between align-items-center">
                                         <h2 class="h22">Fee Struture</h2>
                                         <div class="dropdown right ">
                                             <button class="btn btn-outline-secondary dropdown-toggle btn-sm"
                                                 type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
                                                 aria-expanded="false">
-                                                <span style="color: black;">Play Group</span>
+                                                <span style="color: black;">IES</span>
                                             </button>
                                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -575,18 +575,20 @@
                                                 </tbody>
                                             </table>
                                         </div>
-                                        <small class="text-muted text-center">* The fees provided above is to the best
+                                        <small class="text-muted text-center py-5">* The fees provided above is to the
+                                            best
                                             of our knowledge. Current year's fees might vary, you can get in touch with
                                             the school to get more details.</small>
 
                                     </div>
                                     <div class="pollMain pt-3 px-4">
-                                        <h6 class="h5 pt-3 ">
+                                        <h6 class="h5 pt-3 title ">
                                             <img src="./img/1i.png" style="width: 30px; height:30px">Poll & Opinion
                                         </h6>
                                         <div class="row bg-white mx-1">
                                             <div class="col-sm-8 pollBoard py-3">
-                                                <h5 class="text-center"> Is this school among your top 3 preferncees?
+                                                <h5 class="text-center font-weight-bold"> Is this school among your top
+                                                    3 preferncees?
                                                 </h5>
                                                 <div class="text-center py-3 ">
                                                     <button type="button" class="btn btn-outline-primary">
@@ -615,7 +617,7 @@
 
                                         </div>
                                         <div class="d-flex justify-content-end py-3 pl-5">
-                                            <span class="pl-3 text-primary font-weight-semibold">View All<a> <i
+                                            <span class="pl-3 view font-weight-semibold">View All<a> <i
                                                         class="bi-arrow-right-circle-fill"></i>
                                                 </a></span>
                                         </div>
@@ -624,10 +626,10 @@
                                 </div>
 
                             </div>
-                            <div class="card5">
+                            <div class="card5 Academic">
                                 <div
-                                    class="w-100  justify-content-between align-items-center mb-3 rounded py-2 bg-white shadow-sm eligibilityDropdown position-sticky">
-                                    <div class="w-100 px-4  py-2 d-block">
+                                    class="w-100 justify-content-between align-items-center rounded bg-white shadow-sm eligibilityDropdown position-sticky">
+                                    <div class="px-4 mt-5 pt-3 w-100 d-block">
                                         <h2 class="h22">Academic Stats
                                             <h2>
                                     </div>
@@ -689,16 +691,16 @@
 
                                 </div>
                             </div>
-                            <div class="card6">
+                            <div class="card6 Dates">
                                 <div
                                     class="w-100  mb-3  rounded bg-white shadow-sm eligibilityDropdown position-sticky">
-                                    <div class=" py-2 px-4 d-flex justify-content-between align-items-center">
+                                    <div class="px-4 mt-5 pt-3 d-flex justify-content-between align-items-center">
                                         <h2 class="h22">Admission Dates</h2>
                                         <div class="dropdown right ">
                                             <button class="btn btn-outline-secondary dropdown-toggle btn-sm"
                                                 type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
                                                 aria-expanded="false">
-                                                Play Group
+                                                IES
                                             </button>
                                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -754,45 +756,47 @@
 
                                     </div>
                                     <hr>
-                                    <span class=" px-2 row">
+                                    <span class=" px-4 row">
                                         <div class="col-sm-8 d-flex align-items-center px-3"><span>
-                                            <i class="bi-caret-right-fill text-success"></i><b>Septmber</b> admissions
-                                            in Delhi for
-                                        </span> <span class="dropdown px-1">
-                                            <button type="button"
-                                                class="btn dropdown-toggle border-top-0 border-left-0 border-right-0 bg-white rounded-0 px-0 pt-2 pb-1 border-bottom btn-sm"
-                                                data-bs-toggle="dropdown">
-                                                <span>2022-2023</span>
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="#">Link 1</a></li>
-                                                <li><a class="dropdown-item" href="#">Link 2</a></li>
-                                                <li><a class="dropdown-item" href="#">Link 3</a></li>
-                                            </ul>
-                                        </span></div>
-                                        <span class="col-sm-4 text-success px-1 ">
-                                            <div class="flot"><span class="bodr3 mx-3">
-                                                9
-                                            </span> <span class="">
-                                                Ongoing
+                                                <i class="bi-caret-right-fill text-success"></i><b>Septmber</b>
+                                                admissions
+                                                in Delhi for
+                                            </span> <span class="dropdown px-1">
+                                                <button type="button"
+                                                    class="btn dropdown-toggle border-top-0 border-left-0 border-right-0 bg-white rounded-0 px-0 pt-2 pb-1 border-bottom btn-sm"
+                                                    data-bs-toggle="dropdown">
+                                                    <span>2022-2023</span>
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Link 1</a></li>
+                                                    <li><a class="dropdown-item" href="#">Link 2</a></li>
+                                                    <li><a class="dropdown-item" href="#">Link 3</a></li>
+                                                </ul>
                                             </span></div>
-                                            
+                                        <span class="col-sm-4 text-success ">
+                                            <div class="flot"><span class="bodr3 px-1">
+                                                    9
+                                                </span> <span class="px-2">
+                                                    Ongoing
+                                                </span></div>
+
                                         </span>
                                     </span>
 
                                     <div class="d-flex justify-content-end py-3 px-4">
-                                        <span class="pl-3 nb font-weight-semibold">Check all dates here<a> <i
+                                        <span class="pl-3 view font-weight-semibold">Check all dates here<a> <i
                                                     class="bi-arrow-right-circle-fill"></i>
                                             </a></span>
                                     </div>
 
                                     <div class="pollMain pt-3 mt-5 mx-0">
-                                        <h6 class="h5 pt-3 px-4">
+                                        <h6 class="h5 pt-3 px-4 title">
                                             <img src="./img/1i.png" style="width: 30px; height:30px">Poll & Opinion
                                         </h6>
                                         <div class="row bg-white  mx-4">
                                             <div class="col-sm-8 pollBoard py-3">
-                                                <h5 class="text-center"> Is this school among your top 3 preferncees?
+                                                <h5 class="text-center font-weight-bold"> Is this school among your top
+                                                    3 preferncees?
                                                 </h5>
                                                 <div class="text-center py-3">
                                                     <button type="button" class="btn btn-outline-primary">
@@ -804,7 +808,7 @@
                                                         Bookmark
                                                     </button>
                                                 </div>
-                                                <p class="small text-muted text-center py-3"> Submit your response to
+                                                <p class="text-muted text-center py-3"> Submit your response to
                                                     view opinions of other parents </p>
 
                                             </div>
@@ -821,43 +825,43 @@
 
                                         </div>
                                         <div class="d-flex justify-content-end py-3 px-4">
-                                            <span class="pl-3 nb font-weight-semibold">View All<a> <i
+                                            <span class="pl-3 view">View All<a> <i
                                                         class="bi-arrow-right-circle-fill"></i>
                                                 </a></span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="card7">
+                            <div class="card7 Criteria">
                                 <div class="w-100  mb-3 rounded bg-white shadow-sm">
-                                    <div class="row px-3 py-3 d-flex align-items-center">
+                                    <div class="row px-4 mt-5 pt-3 d-flex align-items-center">
                                         <h2 class="col-sm-8 h22">Admission Criteria & Eligiblity</h2>
-                                       
-                                            <div class="dropdown col-sm-2 my-1 flot">
-                                                <button class="btn btn-outline-secondary dropdown-toggle btn-sm flot"
-                                                    type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
-                                                    aria-expanded="false">
-                                                    <small class="text-dark">2023-2024</small>
-                                                </button>
-                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="dropdown px-3 col-sm-2">
-                                                <button class="btn btn-outline-secondary dropdown-toggle btn-sm ml-3"
-                                                    type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
-                                                    aria-expanded="false">
-                                                    <small class="text-dark"> Play Group</small>
-                                                </button>
-                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                                </ul>
-                                            </div>
-                                                                
+
+                                        <div class="dropdown col-sm-2 my-1 flot">
+                                            <button class="btn btn-outline-secondary dropdown-toggle btn-sm flot"
+                                                type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                <small class="text-dark">2023-2024</small>
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="dropdown px-3 col-sm-2">
+                                            <button class="btn btn-outline-secondary dropdown-toggle btn-sm ml-3"
+                                                type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                <small class="text-dark"> Play Group</small>
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            </ul>
+                                        </div>
+
                                     </div>
                                     <div class="row px-4 py-3 mb-0 p-0">
                                         <div class="col-sm-4">
@@ -953,26 +957,27 @@
                                                 <div class="m-2"><img src="./img/1i.png" style="height: 80px;">
                                                 </div>
                                                 <div class="ml-5">
-                                                    <h5 class="h6">Check Age Eligibility for your Child</h5>
-                                                    <p class="font-weight-normal">Please add the child details and we
-                                                        will let you know about your child eligibility</p>
+                                                    <h4 class="h4">Check Age Eligibility for your Child</h4>
+                                                    <p class="font-1">Please add the child details and we
+                                                        will let you know <br>about your child eligibility</p>
                                                 </div>
                                             </div>
                                             <div class="col-sm-3 align-items-center student"><button
-                                                    class="btn btn-info text-light">+Add
+                                                    class="btn btn-primary text-light">+Add
                                                     Student Details</button>
                                             </div>
 
                                         </div>
 
                                     </div>
-                                    <div class="pollMain pt-3 mt-5 mx-0">
-                                        <h6 class="h5 pt-3 px-4">
+                                    <div class="pollMain pt-3 mt-5 mx-0 ">
+                                        <h6 class="h5 pt-3 px-4 title">
                                             <img src="./img/1i.png" style="width: 30px; height:30px">Poll & Opinion
                                         </h6>
                                         <div class="row bg-white  mx-4">
                                             <div class="col-sm-8 pollBoard py-3">
-                                                <h5 class="text-center"> Is this school among your top 3 preferncees?
+                                                <h5 class="text-center font-weight-bold"> Is this school among your top
+                                                    3 preferncees?
                                                 </h5>
                                                 <div class="text-center py-3">
                                                     <button type="button" class="btn btn-outline-primary">
@@ -984,7 +989,7 @@
                                                         Bookmark
                                                     </button>
                                                 </div>
-                                                <p class="small text-muted text-center"> Submit your response to
+                                                <p class="text-muted text-center"> Submit your response to
                                                     view opinions of other parents </p>
 
                                             </div>
@@ -995,17 +1000,17 @@
                                             </div>
 
                                         </div>
-                                        <div class="d-flex justify-content-end py-3 px-4">
-                                            <span>View All<a> <i class="bi bi-bookmark-plus-fill text-primary"></i>
+                                        <div class="d-flex justify-content-end py-3 px-4 view">
+                                            <span>View All<a> <i class="bi bi-bookmark-plus-fill"></i>
                                                 </a></span>
                                         </div>
                                     </div>
 
                                 </div>
                             </div>
-                            <div class="card8">
+                            <div class="card8 Hall">
                                 <div
-                                    class="w-100  mb-3 rounded py-2 px-4 bg-white shadow-sm eligibilityDropdown position-sticky">
+                                    class="w-100 px-4 mt-5 pt-3 mb-3 rounded bg-white shadow-sm eligibilityDropdown position-sticky">
                                     <div class="w-100 py-3  align-items-center">
                                         <h2 class="h22">Hall Of Fame</h2>
                                     </div>
@@ -1055,9 +1060,9 @@
                                 </div>
 
                             </div>
-                            <div class="card9">
+                            <div class="card9 Results">
                                 <div
-                                    class="w-100 mb-3 rounded py-3 px-4 bg-white shadow-sm eligibilityDropdown position-sticky">
+                                    class="w-100 px-4 mt-5 pt-3 rounded mb-3 bg-white shadow-sm eligibilityDropdown position-sticky">
                                     <div class="w-100 align-items-center">
                                         <h2 class="h22">Coaching Results</h2>
                                     </div>
@@ -1068,9 +1073,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card10">
+                            <div class="card10 Facilities">
                                 <div
-                                    class="w-100 mb-3 rounded py-3 px-4 bg-white shadow-sm eligibilityDropdown position-sticky">
+                                    class="w-100 mb-3 rounded px-4 mt-5 pt-3 bg-white shadow-sm eligibilityDropdown position-sticky">
                                     <div class="row w-100 align-items-center d-flex justify-content-between">
                                         <h2 class="col-sm-6 h22 wiFull">Facilities</h2>
                                         <span class="col-sm-6 three px-1"><span
@@ -1199,14 +1204,15 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card11">
+                            <div class="card11 Comparison">
                                 <div
-                                    class="w-100 mb-3 rounded py-2 bg-white shadow-sm eligibilityDropdown position-sticky">
-                                    <div class="d-flex justify-content-between border-bottom">
-                                        <div class="d-flex  px-3 py-1">
+                                    class="w-100 mb-3 rounded mt-5 pt-3 bg-white shadow-sm eligibilityDropdown position-sticky">
+                                    <div class="d-flex justify-content-between border-bottom px-4">
+                                        <div class="d-flex py-1">
                                             <img src="./img/1i.png" style="height: 50px;">
-                                            <div class="align-items-center">Popular Comparisons with
-                                                <p class="small text-muted">Mother pride school(dwarka)</p>
+                                            <div class="align-items-center">
+                                                <h6>Popular Comparisons with</h6>
+                                                <p class="small text-muted">(Mother pride school(dwarka)</p>
                                             </div>
                                         </div>
                                         <div class="right d-flex align-items-center px-4"> <button
@@ -1215,11 +1221,12 @@
                                         </div>
 
                                     </div>
-                                    <div class="row">
-                                        <div class="col-sm-3">
-                                            <div class="border m-3 p-1">
-                                                <div class="d-flex">
-                                                    <img src="./img/1i.png" style="height: 50px;">
+                                    <div class="row px-4">
+                                        <div class="col-sm-3 m-1">
+                                            <div class=" border p-1">
+                                                <div class="d-flex align-items-center">
+                                                    <div> <img src="./img/1i.png" style="height: 50px;"></div>
+
                                                     <div class="align-items-center"> <small class="">Popular Comparisons
                                                             with</small><br>
                                                         <p class="small text-muted">Mother pride school(dwarka)</p>
@@ -1228,10 +1235,11 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-3">
-                                            <div class="border m-3 p-1">
-                                                <div class="d-flex">
-                                                    <img src="./img/1i.png" style="height: 50px;">
+                                        <div class="col-sm-3 m-1">
+                                            <div class=" border p-1">
+                                                <div class="d-flex align-items-center">
+                                                    <div> <img src="./img/1i.png" style="height: 50px;"></div>
+
                                                     <div class="align-items-center"> <small class="">Popular Comparisons
                                                             with</small><br>
                                                         <p class="small text-muted">Mother pride school(dwarka)</p>
@@ -1240,10 +1248,11 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-3">
-                                            <div class="border m-3 p-1">
-                                                <div class="d-flex">
-                                                    <img src="./img/1i.png" style="height: 50px;">
+                                        <div class="col-sm-3 m-1">
+                                            <div class=" border p-1">
+                                                <div class="d-flex align-items-center">
+                                                    <div> <img src="./img/1i.png" style="height: 50px;"></div>
+
                                                     <div class="align-items-center"> <small class="">Popular Comparisons
                                                             with</small><br>
                                                         <p class="small text-muted">Mother pride school(dwarka)</p>
@@ -1252,10 +1261,11 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-3">
-                                            <div class="border m-3 p-1">
-                                                <div class="d-flex">
-                                                    <img src="./img/1i.png" style="height: 50px;">
+                                        <div class="col-sm-3 m-1">
+                                            <div class=" border p-1">
+                                                <div class="d-flex align-items-center">
+                                                    <div> <img src="./img/1i.png" style="height: 50px;"></div>
+
                                                     <div class="align-items-center"> <small class="">Popular Comparisons
                                                             with</small><br>
                                                         <p class="small text-muted">Mother pride school(dwarka)</p>
@@ -1268,9 +1278,9 @@
 
                                 </div>
                             </div>
-                            <div class="card12">
+                            <div class="card12 Gallery">
                                 <div
-                                    class="w-100 mb-3 rounded py-2 px-4 bg-white shadow-sm eligibilityDropdown position-sticky">
+                                    class="w-100 mb-3 rounded mt-5 py-3 px-4 bg-white shadow-sm eligibilityDropdown position-sticky">
                                     <div class="d-flex justify-content-between">
                                         <div class="d-flex py-1">
                                             <h2 class="h22">Gallery</h2>
@@ -1309,9 +1319,9 @@
 
 
                             </div>
-                            <div class="card13">
+                            <div class="card13 Contact">
                                 <div
-                                    class="w-100 mb-3 rounded py-2 px-4 bg-white shadow-sm eligibilityDropdown position-sticky">
+                                    class="w-100 mb-3 rounded mt-5 py-3 px-4 bg-white shadow-sm eligibilityDropdown position-sticky">
                                     <div class="d-flex justify-content-between">
 
                                         <h2 class="h22">Address & Contact</h2>
@@ -1334,8 +1344,8 @@
                                                 </li>
 
                                             </ul>
-                                            <div style="margin-left: 25px;"> <button
-                                                    class="btn btn-success btn-sm"><i class="bi-telephone m-1"></i>Call
+                                            <div style="margin-left: 25px;"> <button class="btn btn-success btn-sm"><i
+                                                        class="bi-telephone m-1"></i>Call
                                                     Us</button>
                                             </div>
 
@@ -1346,24 +1356,25 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card14">
+                            <div class="card14 Help">
                                 <div
-                                    class="w-100 mb-3  d-flex  align-items-center rounded py-5 px-4 bg-white shadow-sm eligibilityDropdown position-sticky">
+                                    class="w-100 mb-3  mt-5 py-3 px-4 d-flex  align-items-center rounded bg-white shadow-sm eligibilityDropdown position-sticky">
                                     <div class="row d-flex align-items-center cent">
                                         <div class=" col-sm-4">
                                             <img src="./img/1i.png" style="width: 100px; height:100px;" class="flot">
                                         </div>
-                                            <span class="col-sm-4 py-3">
-                                                <h4 class="">Need Help?</h4>
-                                                <div class="text-big">Have any questions about this school while applying
-                                                    through UniApply?</div>
-                                                <div class="small">Let us know </div>
-                                                </span>
-    
-                                 
-  
-                                    <div class="col-sm-4"><button class="btn btn-info text-light"><i
-                                                class="bi-headset m-1"></i>Need Help</button></div>   </div>
+                                        <span class="col-sm-5 py-3">
+                                            <h4 class="">Need Help?</h4>
+                                            <div class="text-big">Have any questions about this school while applying
+                                                through UniApply?</div>
+                                            <div class="small">Let us know </div>
+                                        </span>
+
+
+
+                                        <div class="col-sm-3"><button class="btn btn-info text-light"><i
+                                                    class="bi-headset m-1"></i>Need Help</button></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

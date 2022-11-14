@@ -23,45 +23,49 @@
 </head>
 
 <body>
+   
     <section id="fixed_nav">
-        <nav class="navbar navbar-expand-sm navbar-light bg-light px-2 fixed-top">
+        <nav class="navbar navbar-expand-sm bg-white shadow-sm px-2 fixed-top">
             <div class="container d-flex align-items-center">
-                <a class="navbar-brand text-dark d-flex align-items-center" href="index.html"><img class="logo"
+                <a class="navbar-brand text-dark d-flex align-items-center" href="index.html" href="javascript:void(0)"><img class="logo"
                         src="./img/AC.jpg">
                     <h3 class="h22 m-1">AcademyCheck</h3>
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon" ><i class="bi-border-width" style="color: black;"></i></span>
+                  </button>
                 <div class="collapse navbar-collapse " id="mynavbar">
-                    <ul class="navbar-nav me-auto d-flex align-items-center">
-                        <li class="nav-item  d-flex align-items-center">
-                            <a class="nav-link">
-                                <div class="dropdown">
-                                    <button class="btn btn-outline-secondary dropdown-toggle btn_w1" type="button"
-                                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <span class="pl-5 "><i class="bi-geo-alt-fill text-danger"></i>Delhi</span>
-                                    </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </div>
-                                <div><input class="form-control mr-2" type="text" placeholder="Search"></div>
-                            </a>
-                        </li>
-                    </ul>
-                    <form class="d-flex hide2">
-                        <!-- <input class="form-control me-2" type="text" placeholder="Search"> -->
-                        <a class="nav-link" > <span class="align-items-center px-3 ml-5"><i
-                                    class="bi-cart-fill text-big1"></i>
-                                <span class="small-heading align-items-center">Cart</span>
-                            </span></a>
-                        <button class="btn btn-primary" type="button">Sign In</button>
-                    </form>
+                    <div class="headerSearch d-flex w-100">
+                        <div class="w-25">
+                            <div class="dropdown">
+                                <button class="btn btn-outline-secondary dropdown-toggle" type="button"
+                                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Jaipur
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-50 main-search  ">
+                            <input class="form-control maSe" type="search" placeholder="Search" aria-label="Search">
+
+                        </div>
+                        <form class="w-25 d-flex hide1">
+                            <!-- <input class="form-control me-2" type="text" placeholder="Search"> -->
+                            <a class="nav-link" href="javascript:void(0)"> <span class="align-items-center px-3 ml-5"><i
+                                        class="bi-cart-fill text-big1"></i>
+                                    <span class="small-heading align-items-center">Cart</span>
+                                </span></a>
+                            <button class="btn btn-primary" type="button">Sign In</button>
+                        </form>
+                    </div>
+                 
                     <div class="hide_nav">
-                        <div class="container">
+                        <div class="container ">
+
                             <div class="collapse navbar-collapse" id="mynavbar">
                                 <ul class="navbar-nav me-auto">
                                     <li class="nav-item">
@@ -87,17 +91,15 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div>
-                                <form class="">
-                                    <!-- <input class="form-control me-2" type="text" placeholder="Search"> -->
-                                    <span class="align-items-center px-3 ml-5"> <a class=""><i
-                                                class="bi-cart-fill text-big1"></i>
-                                            <span class="small-heading align-items-center">Cart</a></span>
-                                    </span><span><button class="btn btn-primary" type="button">Sign In</button> </span>
-
-                                </form>
-                            </div>
-
+                             <form class=""> <div>  
+                                <!-- <input class="form-control me-2" type="text" placeholder="Search"> -->
+                               <span
+                                        class="align-items-center px-3 ml-5">  <a class="nav-link" href="javascript:void(0)"></a><i class="bi-cart-fill text-big1"></i>
+                                        <span class="small-heading align-items-center">Cart</span>
+                                    </span></a>
+                                <button class="btn btn-primary" type="button">Sign Inn</button></div>
+                            </form>
+                        
                         </div>
                     </div>
                 </div>
@@ -105,9 +107,9 @@
         </nav>
 
     </section>
-    <section id="scroll_nav">
+    <section id="scroll_nav" class="topp">
 
-        <nav class="navbar navbar-expand-sm navbar-light topp">
+        <nav class="navbar navbar-expand-sm navbar-light topp pt-4">
             <div class="container-fluid">
 
                 <!-- <button class="navbar-toggler fix_btn" type="button" data-bs-toggle="collapse"

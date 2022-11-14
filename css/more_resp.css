@@ -177,4 +177,9 @@
         .flot{
          float: none;
         }
+        .maSe{
+         margin-left: 0px;
+         background-color: #f0f2f3;
+        }
+         
 }

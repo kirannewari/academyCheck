@@ -5,6 +5,9 @@
   font-size: 1.2125rem;
   letter-spacing: -0.5px;
 }
+.shadow-sm{
+  box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%) !important;
+}
 .leftt{
   float: left;
 }
