@@ -22,7 +22,7 @@
     .bg_img {
         background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(../img/s2.jpeg);
         filter: grayscale(90%);
-        height: 400px;
+        height: 200px;
         width: 100%;
         /* display: flex;
         align-items: center; */
