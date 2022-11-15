@@ -18,6 +18,9 @@ h3, .h3 {
     color: #303264;
 
 }
+.h7{
+    font-weight: 700;
+}
 
 .coName{
     font-weight: 700;
@@ -61,7 +64,7 @@ font-family: 'Nunito Sans', sans-serif;
     color: #1f5ca2;
 }
  .text-big1 {
-    font-size: 1.25rem;
+    font-size: 1.05rem;
     color: #303264;
     font-weight: 700;
 }
@@ -378,7 +381,9 @@ line-height: 0.8rem;
       display: none;
     }
     .hide_btns{
-        display: none;
+       visibility: hidden;
+       clear: both;
+       height: 0;
       }
       .hide_btns2{
         display: none;
@@ -391,7 +396,7 @@ line-height: 0.8rem;
         float:right;
       }
       .student{
-        margin-left: 0px;
+        margin-left: -20px;
        }
        .flot{
         float: right;
@@ -432,4 +437,24 @@ line-height: 0.8rem;
    .icon{
     color: #111;
    }
+   .child-selectDropdown {
+    padding: 3px 10px 3px 3px;
+    border-width: 1px 1px 1px 3px;
+    border-style: solid;
+    border-color: #ced4da #ced4da #ced4da #1f5ca2;
+    width: 320px;
+    min-width: 240px;
+    line-height: 32px;
+    border-radius: 3px;
+    display: inline-block;
+}
+.line_h3{
+    line-height: 1;
+}
+.owl
+{
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    margin: 10px;
+}
     

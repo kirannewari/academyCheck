@@ -1,6 +1,11 @@
 @media(max-width: 991.98px) {
+   .main_container {
+      padding: 2em 0;
+      background-color: #ffffff ;
+      min-height: calc(100vh - 269px);}
    .hide1{
       visibility: hidden;
+     height: 0;
    }
    .h22{
    color: #303264;
@@ -10,7 +15,9 @@
    }
    .official_hide{
       visibility: hidden;
-      margin: -150px;
+     height: 0;
+     
+    
    }
     .bg_img {
         background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(../img/s2.jpeg);
@@ -20,27 +27,25 @@
         /* display: flex;
         align-items: center; */
        }
-    .co_logo{
-        height: 100px;
+    .co_logo1{
+        /* height: 100px; */
         background-color: white;
-        margin-right: 1rem;
-        border: 1px solid black;
+        /* margin-right: 1rem; */
+        border: none;
          }
-         .co_logo img{
-          width: 100px;
-          height: 100px;
-          padding: 10px;
+         .co_logo1 img{
+          width: 60px;
+          height: 60px;
+          padding: 5px;
          }
          .wiFull{
             width: 100%;
             display: block
          }
          .three{
-            display: inherit;
-            align-items: center;
-            width: 100%;
+       
             background-color: rgb(225 241 241);
-            margin-bottom: 10px;
+            /* margin-bottom: 10px; */
          }
          .mid{
             display: flex;
@@ -66,6 +71,7 @@
             margin: 10px auto 5px 20px;
             width: 28%;
             display: none;
+            clear: both;
          }
          .pollImg{
             visibility: hidden;
@@ -74,6 +80,7 @@
             margin: 10px auto 5px 20px;
             width: 28%;
             display: none;
+            clear: both;
          }
          .top2{
             visibility: hidden;
@@ -143,10 +150,11 @@
             align-items: center;
         }
         .hide_btns{
-            display: inline;
+           visibility: visible;
+           height: auto;
           }
           .line_h3{
-            line-height: 10px;
+            line-height: 15px;
           }
           .pr1{
             padding: 10px;
@@ -169,7 +177,7 @@
             width: 100%;
         }
         .student{
-         margin-left: 20px;
+         margin-left: 0px;
         }
         .cent{
          text-align: center;
@@ -180,6 +188,9 @@
         .maSe{
          margin-left: 0px;
          background-color: #f0f2f3;
+        }
+        .color3{
+         background-attachment:  #f0f2f3;
         }
          
 }
