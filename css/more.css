@@ -428,7 +428,8 @@ line-height: 0.8rem;
         border-color: #1f5ca2;
     }
     .font-1 {
-        font-size: 1rem;
+        font-size: 0.8rem;
+        line-height: 1.5;
     }
    .maSe{
     margin-left: -171px;
