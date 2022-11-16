@@ -185,4 +185,43 @@
         .color3{
          background-attachment:  #f0f2f3;
         }
+        h3, .h3 {
+         font-size: 1.53125rem;
+     
+     }
+     .h4{
+         font-size: 1.3rem;
+         font-weight: 500;
+         color: #303264;
+     
+     }
+     .h7{
+         font-weight: 500;
+     }
+     
+     .coName{
+         font-weight: 500;
+     }
+     .title{
+      font-weight: 500;
+     }
+     .font-weight-bold{
+      font-weight: 500;
+     }
+     h6{
+      font-weight: 500;
+     }
+     .text-big1{
+      font-weight: 500;
+      font-size: 1rem;
+     }
+     .small-heading{
+      font-weight: 500;
+     }
+     .text-big2{
+      font-weight: 500;
+     }
+     .price{
+      font-size: 20px;
+     }
 }
