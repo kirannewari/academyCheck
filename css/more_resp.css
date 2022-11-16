@@ -5,7 +5,7 @@
       min-height: calc(100vh - 269px);}
    .hide1{
       visibility: hidden;
-     height: 0;
+      height: 0;
    }
    .h22{
    color: #303264;
@@ -15,17 +15,13 @@
    }
    .official_hide{
       visibility: hidden;
-     height: 0;
-     
-    
+     display:none;
    }
     .bg_img {
         background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(../img/s2.jpeg);
         filter: grayscale(90%);
         height: 200px;
         width: 100%;
-        /* display: flex;
-        align-items: center; */
        }
     .co_logo1{
         /* height: 100px; */
@@ -113,7 +109,6 @@
             /* margin: 10px auto 5px 20px; */
             width: auto;
             display: inline-flex;
-         
          }
          .top_m1{
          margin-top: 700px;
@@ -133,14 +128,12 @@
             font-size: 20px;
             color: black;
          }
-        
          .m1{
             margin: 10px;
          }
          .fix_btn{
             /* position: absolute; */
             margin-top: 22%;
-
          }
          .bodr{
             border: 1px solid black;
@@ -192,5 +185,4 @@
         .color3{
          background-attachment:  #f0f2f3;
         }
-         
 }
