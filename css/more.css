@@ -456,7 +456,7 @@ line-height: 0.8rem;
 {
     overflow-x: auto;
     flex-wrap: nowrap;
-    margin: 10px;
+    /* margin: px; */
 }
 .pll{
     padding-left: 25px;
