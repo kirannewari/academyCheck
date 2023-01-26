@@ -8,8 +8,15 @@ body {
     color: #212529;
     text-align: left; 
 }
+.main-ma{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 .font-1{
     font-size: 1rem;
+}
+.h1{
+    font-size: 2.0rem !important;
 }
 .h5{
     font-weight: 700;
@@ -18,7 +25,7 @@ body {
     padding-top: 15px;
 }
 .smalll{
-    font-weight: 700;
+    font-weight: 500;
 }
 .pp{
     color: #1f5ca2;
@@ -42,6 +49,12 @@ h3, .h3 {
 .nbb{
     color: rgb(8 35 84);
 
+}
+.form-control{
+    border-radius: 10px 0 0 10px ;
+}
+.saerch_bordr{
+    border-radius: 0 10px 10px 0;
 }
 .hightlight {
     border-bottom: 2px solid #dc3545;
@@ -282,7 +295,6 @@ padding: 150px;
 .card3:hover{
     background-color: rgb(216, 208, 208);
     color: white !important;
-
 }
 .owl
 {
@@ -295,7 +307,6 @@ padding: 150px;
     .hide_nav{
         visibility: visible;
         /* background-color: #f8f9fa; */
-     
      }
     .show_nav1{
   visibility: hidden;
